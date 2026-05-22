@@ -22,7 +22,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> evaluar la comprensión de los aprendices sobre los conceptos relacionados con el control de calidad en los procesos de confección, patronaje, trazo y corte, confección, terminados, insumos, materiales y textiles, así como los tipos de inspección, técnicas de muestreo, muestreo de aceptación por variables y atributos, y criterios para validar la calidad del producto según especificaciones técnicas.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,400 +30,657 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el propósito principal del componente Control de calidad: requisitos, inspecciones de calidad y muestreo?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto:
+                'Reconocer únicamente los tipos de maquinaria básica utilizados en confección.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+                'Comprender el control de calidad en procesos, insumos, materia prima y materiales para definir requisitos e inspecciones.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto:
+                'Estudiar solo las operaciones de planchado, empaque y embalaje.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto:
+                'Reemplazar las inspecciones por observaciones informales del operario.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            'Al estructurar un sistema de control de calidad, ¿de qué elemento se parte para tener una visión global del proceso?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Del color comercial de la prenda terminada.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Del listado de proveedores de insumos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
+              texto: 'Del precio final asignado por el área de ventas.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
+              texto: 'Del diagrama operativo de la prenda a confeccionar.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            'En el control de calidad, ¿qué diferencia existe entre variables y atributos de una prenda?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
-              esCorrecta: false,
+              texto:
+                'Las variables son características cuantitativas y los atributos son características no cuantificables.',
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'Las variables son defectos críticos y los atributos son siempre defectos menores.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
+              texto:
+                'Las variables solo se aplican al empaque y los atributos solo al planchado.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto:
+                'Las variables corresponden al proveedor y los atributos al precio del producto.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuál de los siguientes aspectos corresponde a un requisito de calidad en patronaje?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La cantidad de cajas necesarias para el despacho del pedido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La ubicación del producto en vitrina comercial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Las medidas del patrón con y sin costuras, cantidad de piezas, señalización, aplomos, piquetes y plantillas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'La selección de descuentos y promociones para el cliente final.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 5,
+          texto: 'En el control de calidad del trazo, ¿qué se debe revisar?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'La temperatura de la plancha industrial y la presión de empaque.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La alineación de piezas, organización, cantidad de piezas y ancho de trazo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Solo el número de operarios disponibles en la planta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Únicamente el diseño de la etiqueta comercial.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 6,
+          texto: '¿Qué se debe controlar durante el tendido de la tela?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Alineación de capas, uniformidad del tendido, cantidad de capas, tiempos de reposo, lado de tela y defectos visibles.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'Únicamente la cantidad de botones y cremalleras disponibles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Solo la presentación de la prenda en el punto de venta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El diseño de la campaña publicitaria del producto.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Cuál es un aspecto clave en la inspección de la operación de corte?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Eliminar la revisión de piquetes para acelerar el proceso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Ubicar los paquetes terminados sin rotulación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Aumentar el número de capas sin revisar el trazo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Respetar el trazo, revisar simetrías, piquetes, puntos y corte de piezas de forro y entretela.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Qué información debe contener el tiqueteado de las piezas cortadas?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo el nombre del cliente y el precio de venta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'El código de la máquina y el turno del operario únicamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Número consecutivo de la pieza, talla y referencia, ubicado por el revés de la tela en un lugar visible.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El listado de normas internacionales de laboratorio.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 9,
+          texto:
+            'En el proceso de fusionado, ¿qué condiciones deben verificarse?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'La cantidad de unidades vendidas en el mes.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Temperatura, tiempo, presión, alineación y posición de la pieza.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El color de la bolsa y el tipo de gancho para empaque.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La publicación de resultados en carteleras.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Qué caracteriza la inspección en pie de máquina o de producto en proceso?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Se realiza únicamente después del empaque final.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Se aplica solo a los insumos rechazados por proveedores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Reemplaza el uso de la ficha técnica del producto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El inspector revisa la pieza al terminar la operación, por derecho y revés, y analiza el método utilizado.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 11,
+          texto:
+            '¿Cuál de los siguientes aspectos se audita en producto terminado?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: '<em>Board</em>',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: '<em>Route</em>',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
               texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
+                'Prenda limpia, sin hebras, costuras uniformes, sin roturas y medidas acordes con la ficha técnica.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto:
+                'Únicamente el número de proveedores registrados por la empresa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Solo la ubicación del rollo de tela en bodega.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+                'La cantidad de software instalado en el computador de diseño.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Para qué se confecciona un lote piloto?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Para omitir la inspección de producto terminado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Para reemplazar todas las pruebas de laboratorio.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Para comprobar el cumplimiento de requisitos y prever problemas de calidad antes de producir.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Para eliminar la necesidad de patrones y ficha técnica.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 13,
+          texto: 'En los procesos de terminados, ¿qué se revisa en planchado?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Solo la cantidad de piezas cortadas por talla.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Únicamente la alineación de capas en el tendido.',
               esCorrecta: false,
             },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto: 'El cálculo del tamaño de muestra del lote.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Uniformidad, quiebres según especificación, ausencia de arrugas, temperatura, limpieza, presión y humedad.',
               esCorrecta: true,
             },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué aspectos se validan en una inspección de estampado?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Aplomos, piquetes y márgenes de costura del patrón.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Colores precisos, diseño, tamaño, posición y ubicación conforme al requerimiento.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Número de conos de hilo inspeccionados por muestreo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Altura de dientes y tensión del hilo de la máquina.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué se debe revisar en el control de calidad de los textiles?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Uniformidad del color, ausencia de deshilados, huecos, motas, limpieza, ancho de tela y comportamiento ante agua y temperatura.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Solo el número de cajas usadas en el embalaje.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Únicamente el nombre del vendedor del producto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La decoración del punto de venta y la promoción comercial.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 16,
+          texto: 'Según el componente, ¿qué es la inspección?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'El proceso de diseñar nuevas referencias sin controlar requisitos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La actividad de empacar prendas sin revisar su calidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La acción de comparar un material, proceso o producto contra especificaciones dadas previamente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Un método exclusivo para medir únicamente el color de los hilos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 17,
+          texto:
+            'Según la cantidad de productos a inspeccionar, ¿cuáles son métodos de inspección mencionados?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Planchado, doblado, embalaje y lavandería.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Trazo, corte, fusionado y empaquetado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Diseño, compras, ventas y publicidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Inspección al 100 %, por muestreo, comprobación y cero inspección.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 18,
+          texto: '¿Qué caracteriza el muestreo probabilístico?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Solo se aplica cuando no existen lotes ni productos definidos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Utiliza selección aleatoria y permite que todos los productos puedan hacer parte de la muestra.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'Se basa únicamente en la opinión del operario sin uso de datos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Rechaza automáticamente todos los lotes inspeccionados.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 19,
+          texto:
+            'En las técnicas de muestreo, ¿qué representan las variables N, n, k e I?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Tipos de defectos críticos, mayores, menores y aceptables.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Fases de planchado, empaque, embalaje y lavandería.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Tamaño de población o lote, tamaño de muestra, intervalo de salto y arranque aleatorio.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'Normas de ensayo para cremalleras, botones, hilos y textiles.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
+        },
+        {
+          id: 20,
+          texto: '¿En qué consiste el muestreo de aceptación?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'En validar una muestra de un lote para decidir su aceptación o rechazo; si se rechaza, se inspecciona el 100 % del lote.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'En revisar solo el color del empaque sin analizar defectos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'En aceptar siempre el lote sin aplicar criterios de calidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'En usar únicamente una muestra visual sin relación con variables o atributos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '',
+          mensaje_incorrecto: '',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
@@ -434,11 +691,11 @@ export default {
       tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',
       titulo: 'Completar frases',
       introduccion:
-        '<b> Objetivo:</b> identificar conceptos clave relacionados con el presupuesto personal, la cultura del ahorro y la planificación financiera.',
+        '<b>Objetivo:</b> evaluar la comprensión de los aprendices sobre los conceptos relacionados con el control de calidad en los procesos de confección, patronaje, trazo y corte, confección, terminados, insumos, materiales y textiles, así como los tipos de inspección, técnicas de muestreo, muestreo de aceptación por variables y atributos, y criterios para validar la calidad del producto según especificaciones técnicas.',
       instruccion:
         'Complete correctamente los enunciados con la palabra que falta según los contenidos estudiados en el componente formativo.',
       imagen: '@/assets/actividad/imagen1.png',
-      barajarPreguntas: true,
+      barajarPreguntas: false,
       textos: [
         {
           id: 1,

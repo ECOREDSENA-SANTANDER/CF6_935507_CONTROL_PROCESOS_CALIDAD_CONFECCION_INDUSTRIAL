@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Control de calidad: requisitos, inspecciones de calidad y muestreo.'
