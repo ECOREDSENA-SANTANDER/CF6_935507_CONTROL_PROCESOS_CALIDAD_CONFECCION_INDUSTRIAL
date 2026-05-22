@@ -97,13 +97,181 @@
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 1.2 Control de calidad en trazo y corte
       
+      .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
+        .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/8.png', alt='')
+        .col-sm-12.col-lg-7
+          .row.justify-content-center.mb-4
+            .col-sm-12.col-lg-2.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/9.svg', alt='')
+            .col-sm-12.col-lg-10
+                p.mb-3 En cada una de las actividades que conforman el área de trazo y corte se establecen controles para revisar y garantizar la calidad del proceso.
+                p.mb-0 Las personas encargadas de cada actividad en el área deben contar con comunicación abierta para coordinar el proceso, debido a que el error en el área se replica igualmente en la producción. Con relación a lo anterior es importante detectar el problema a tiempo.
+          p.mb-0 Es primordial contar con la trazabilidad de la producción, para ubicar fácilmente cada lote, poder intervenir rápidamente en los productos a corregir y dar respuesta rápida para solucionar el inconveniente.
       
+      p.mb-3 Los documentos utilizados en el área para controlar el corte, además de la orden de producción, son las inspecciones en corte para revisar cada actividad. Además de un formato que se puede anexar en el paqueteo donde se validen las unidades de cada pieza en cada paquete, siendo un apoyo visual importante en el alistamiento del proceso de confección.
+
+      p.mb-5 Los requisitos de calidad en trazo y corte para revisar en cada actividad son los siguientes:
       
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Trazo
       
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/10.png', alt='')
+        .col-sm-12.col-lg-4.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/11.svg', alt='')
+        .col-sm-12.col-lg-5
+          .bg-color-2.pt-3
+            .bg-color-5.mt-2.wcus-5.br-5.mb-3
+              .py-3
+                h4.mb-0.px-5 Alineación de piezas  
+            p.mb-0.text-white.px-5.py-4 Cada pieza debe estar contenida en el trazo conforme a la línea de aplomo. Organización de piezas: con el fin de controlar el rendimiento de las telas, es importante supervisar la disposición de las piezas, colocando una al lado de la otra y aprovechando líneas o curvas compartidas entre las piezas. Cantidad de piezas: contar y verificar que el número de piezas corresponde a cada talla del producto. Ancho de trazo: cotejar que sea conforme al ancho útil de la tela.
+
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Tendido
+
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-8
+          AcordionA(tipo="b" clase-tarjeta="tarjeta bg-brown")
+            .row.justify-content-center.mb-0(titulo="Alineación de capas")
+              .col-12
+                p.mb-0 Respetar la margen colocada a partir de la base, es decir la primera capa. También que en los extremos alcance a cubrir el largo del trazo, sobre todo en trazos escalonados.
+            .row.justify-content-center.mb-0(titulo="Uniformidad de tendido")
+              .col-12
+                p.mb-0 El extendido de cada capa no debe tener arrugas.
+            .row.justify-content-center.mb-0(titulo="Cantidad de capas")
+              .col-12
+                p.mb-0 Antes de cortar se debe contar el número de capas, y verificar que correspondan a las unidades a cortar según la distribución del trazo.
+            .row.justify-content-center.mb-0(titulo="Tiempos de reposo")
+              .col-12
+                p.mb-0 Sobre todo en tejidos de punto, para evitar encogimiento, se tiene en cuenta según ficha técnica de la tela y se valida con pruebas que confirmen niveles de encogimiento desarrollado una vez finalicen los tiempos de reposo.
+            .row.justify-content-center.mb-0(titulo="Lado de tela")
+              .col-12
+                p.mb-0 Teniendo en cuenta el tipo de trazo, se deben respetar el derecho de la tela.
+            .row.justify-content-center.mb-0(titulo="Tela")
+              .col-12
+                p.mb-0 Observar si existen defectos en la tela, marcar en lo posible la mayoría de piques y marras, entre otras observadas. Cuidar la combinación de rollos y de colores para evitar contaminación entre los colores por los residuos de las fibras en el corte del tejido.
+        .col-sm-12.col-lg-4.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/12.svg', alt='')
       
-      
-      
-      
+
+
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Corte
+
+
+      .row.justify-content-center.mb-5.align-items-end
+        .col-sm-12.col-lg-8
+          .bg-color-3.p-5
+            ol.lista-ol--cuadro
+              li.d-flex
+                .lista-ol--cuadro__vineta
+                  span.text-sistema.fw-bold 1
+                p.mb-0 #[b Uniformidad:] respetar el trazo de cada pieza, obedeciendo a curvas y rectas según sea el caso de cada parte de la pieza.
+
+              li.d-flex
+                .lista-ol--cuadro__vineta
+                  span.text-sistema.fw-bold 2
+                p.mb-0 #[b Simetrías:] observar la proporción de cada pieza sosteniendo el colchón o bloque de telas, evitando se corra para que no afecte la simetría en las capas inferiores.
+              li.d-flex
+                .lista-ol--cuadro__vineta
+                  span.text-sistema.fw-bold 3
+                p.mb-0 #[b Piquetes y puntos:] revisar la ubicación de piquetes y que la profundidad no sea mayor de 0,4 cms; en los puntos evitar que se corra la ubicación, deben tener un tamaño razonable.
+              li.d-flex.mb-0
+                .lista-ol--cuadro__vineta
+                  span.text-sistema.fw-bold 4
+                p.mb-0 #[b Corte de piezas de forro y entretela:] revisar que el material y las piezas se corten conforme a la ficha técnica y a la programación de la producción.
+        .col-sm-12.col-lg-4.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/13.svg', alt='')
+
+
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Tiqueteado
+
+      .tarjeta--container.row.mb-5.justify-content-center(data-aos='fade-right')
+        .col-md-6.col-lg-5.tarjeta.color-secundario.p-5
+          .row.justify-content-center.mb-4
+            .col-4
+                img(src='@/assets/curso/temas/t1/14.svg')          
+          h2.text-center Ubicación
+          p.mb-0 Examinar que se coloque por el revés de la tela en un lugar visible y que no afecte la pieza en el momento del ensamble.
+        
+        .col-md-6.col-lg-5.tarjeta.color-adicional-1.p-5
+          .row.justify-content-center.mb-4
+            .col-4
+                img(src='@/assets/curso/temas/t1/15.svg')          
+          h2.text-center.text-white Descripción
+          p.mb-0.text-white Observar que la información corresponda a cada pieza, debe contener el número consecutivo de la pieza en orden según el tendido, además incluir la talla y la referencia.
+
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Fusionado
+
+
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/10.png', alt='')
+        .col-sm-12.col-lg-4.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/11.svg', alt='')
+        .col-sm-12.col-lg-5
+          .bg-color-2.p-5
+            ul.lista-ul--color.p-2
+              li.d-flex
+                i.fas.fa-thread-white.icon-list-3
+                p.mb-0.text-white Temperatura: evidenciar que corresponda al material a fusionar.
+              li.d-flex
+                i.fas.fa-thread-white.icon-list-3
+                p.mb-0.text-white Tiempo: duración de la pieza en la fusionadora.
+              li.d-flex
+                i.fas.fa-thread-white.icon-list-3
+                p.mb-0.text-white Presión: verificar que sea la adecuada en cada pieza para que la unión sea uniforme.
+              li.d-flex
+                i.fas.fa-thread-white.icon-list-3
+                p.mb-0.text-white Alineación y posición: cotejar que se encuentre derecha y tener en cuenta si se debe dejar el ancho de costura.
+
+
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Empaquetado
+
+      .row.justify-content-center.mb-5
+        .col-lg-9.position-relative
+          .avatar
+            figure
+              img(src="@/assets/curso/temas/t1/19.svg", alt="alt").img250
+          
+          .crd.crd--avatarHorizontal.crd--first.py-4
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/temas/t1/16.svg", alt="alt").img100
+              .col
+                h5 Calidad de la información
+                p Es importante tener en cuenta las variables, la ponderación de estas refleja la calidad de la información, la cual le permitirá obtener información concreta, clara y medible. Es necesario resaltar las características determinantes desde enfoques cualitativos y cuantitativos del dato obtenido.
+          
+          .crd.crd--avatarHorizontal.py-4
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/temas/t1/17.svg", alt="alt").img100
+              .col
+                h5 Aplicación de técnicas
+                p Desarrolle técnicas que le permitan tener un panorama completo de la información que se esté analizando, integrando las variables obtenidas en la medición y contrastando detalladamente los datos.
+          
+          .crd.crd--avatarHorizontal.crd--last.py-4
+            .row.align-items-center
+              .col-auto
+                figure
+                  img(src="@/assets/curso/temas/t1/18.svg", alt="alt").img100
+              .col
+                h5.text-white Comunicación correcta de los resultados
+                p.mb-0.text-white En los análisis de resultados, el determinante es saber mostrar la información, tenga en cuenta la objetividad, la claridad, la transparencia y la organización de la información.
+
       Separador
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 1.3 Control de calidad en confección
