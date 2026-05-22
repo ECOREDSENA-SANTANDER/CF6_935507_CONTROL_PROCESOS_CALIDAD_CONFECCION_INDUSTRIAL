@@ -276,13 +276,130 @@
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 1.3 Control de calidad en confección
       
+      p.mb-3 En esta parte del proceso es necesario tener en cuenta la distribución de las operaciones, es decir la hoja de ruta; operaciones de preparación, ensamble y terminados. Cada operación tiene un método, un tiempo estándar, y la descripción de maquinaria y aditamentos como pies, guías y fólderes que se deben revisar.
+
+      p.mb-5 En los puntos de revisión se realizan las inspecciones pertinentes y se retienen las prendas o piezas con defectos para analizar las causas y determinar acciones correctivas, así mismo en los puestos de trabajo con auto calidad, donde la responsabilidad de la revisión es de cada operario con acompañamiento y el apoyo del auditor de calidad en pie de máquina. Conforme corresponda, en la inspección se utilizan los formatos de inspecciones de producto terminado y de producto en proceso.
       
       
+      .bloque-texto-g.bloque-texto-g--inverso.bg-color-4.p-3.p-sm-4.p-md-5.br-1.mb-5(data-aos='fade-right')
+        .bloque-texto-g__img.d-none.d-lg-block(
+          :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/20.png')})` }")
+        
+        .bloque-texto-g__texto.p-4.d-flex.flex-column
+          p.mb-4 Además de los factores anteriormente mencionados que son directos al proceso, se consideran los factores ambientales como la iluminación, ventilación, temperatura, ruido, espacio y aseo del lugar de trabajo. También los factores humanos relacionados con el personal como la capacitación y las relaciones interpersonales, los cuales afectan los resultados en los productos y por ende su calidad.
+          p.mb-0 También se pueden realizar pruebas o ensayos en laboratorios especializados que evalúen la prenda según las normas nacionales e internacionales, una de ellas es la prueba de uso en la que se comparan los resultados planteados y los reales obtenidos, de forma que se detecten las fallas en el proceso. En este tipo de pruebas se analizan las fibras, en cuanto a la cantidad, colorimetría, peso, composición, cambios dimensionales después del lavado, resistencia a la rotura y al desgarre, elongación y elasticidad de la tela, recuperación a las arrugas, resistencia a la abrasión, solidez al color con el frote, al agua, al planchado, resistencia a la formación de motas (pilling), entre otras.
       
+      p.mb-5 Descargue el documento y consulte los principales ensayos que se pueden realizar a la prenda y la norma de calidad relacionada al proceso, de acuerdo al organismo de estandarización que expide la norma.
+
+      .row.justify-content-center.mb-5.bg-color-9.br-4.p-5.align-items-center
+        .col-sm-12.col-lg-4.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/21.svg', alt='')
+        .col-sm-12.col-lg-6
+          h3.mb-5.br-6 Pruebas de calidad en laboratorios para prenda terminada
+          p.mb-5 El siguiente documento  constituye una herramienta de consulta que vincula los métodos de ensayo con sus respectivas normas. Esta información se encuentra disponible mediante el botón de descarga.
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/Pruebas_de_calidad_en_laboratorios_para_prenda_terminada.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download 
       
-      
-      
-      
+      p.mb-5 Tenga en cuenta los organismos de estandarización:
+
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-8
+          .bg-color-6.px-5.pt-5.pb-4
+            ul.lista-ul--color.mb-0
+              li.d-flex
+                i.fas.fa-thread.icon-list-3
+                p.mb-0 #[b AATCC:] Asociación Estadounidense de Químicos y Coloristas Textiles (American Association of Textile Chemists and Colourists). 
+              li.d-flex
+                i.fas.fa-thread.icon-list-3
+                p.mb-0 #[b NTC:] Norma Técnica Colombiana. 
+              li.d-flex
+                i.fas.fa-thread.icon-list-3
+                p.mb-0 #[b ASTMD:] Sociedad Americana para Pruebas y Materiales (American Society for Testing and Materials). 
+              li.d-flex
+                i.fas.fa-thread.icon-list-3
+                p.mb-0 #[b ISO:] Organización Internacional de Normalización (International Organization for Standardization). 
+              li.d-flex
+                i.fas.fa-thread.icon-list-3
+                p.mb-0 #[b UNE:] Normalización Española. 
+              li.d-flex.mb-0
+                i.fas.fa-thread.icon-list-3
+                p.mb-0 #[b AS/NZS:] Normalización de Nueva Zelanda y Australia (Standards Australia y Estándar New Zealand). 
+        .col-sm-12.col-lg-4.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/11.svg', alt='')
+
+
+      p.mb-5 Los requisitos de calidad que se deben cumplir en la confección y son objetos de control son:
+
+      .bg-full-width.bg-fondo-1.mb-5(data-aos='fade-right')
+        .p-full-width
+          .row.justify-content-center.align-items-center
+            .col-lg-3.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/28.png', alt='')
+            .col-lg-9
+              SlyderF.circl-arrow.mb-4(columnas="col-md-6 col-lg-6 col-xl-4")
+                .tarjeta.bg-color-4.p-4.hcard-1
+                  .row.justify-content-center.mb-3
+                    .col-6
+                      img(src='@/assets/curso/temas/t1/22.svg' alt='')
+                  .bg-color-1.px-3.py-1.mb-3
+                    h4.mb-0.text-center.text-white Costura
+                  p.mb-0 Simetría, sin recogidos ni prenses, costuras rectas, respetar márgenes de costura, costura uniforme, marquilla de acuerdo con el cuidado de la prenda, remates uniformes, cases de costuras.
+                .tarjeta.bg-color-4.p-4.hcard-1
+                  .row.justify-content-center.mb-3
+                    .col-6
+                      img(src='@/assets/curso/temas/t1/23.svg' alt='')
+                  .bg-color-1.px-3.py-1.mb-3
+                    h4.mb-0.text-center.text-white Tela
+                  p.mb-0 Con colores uniformes, tela sin arrugas, sin imperfecciones.
+                .tarjeta.bg-color-4.p-4.hcard-1
+                  .row.justify-content-center.mb-3
+                    .col-6
+                      img(src='@/assets/curso/temas/t1/24.svg' alt='')
+                  .bg-color-1.px-3.py-1.mb-3
+                    h4.mb-0.text-center.text-white Ambiente del taller
+                  p.mb-0 Orden y limpieza en piso, puestos de trabajo.
+                .tarjeta.bg-color-4.p-4.hcard-1
+                  .row.justify-content-center.mb-3
+                    .col-6
+                      img(src='@/assets/curso/temas/t1/25.svg' alt='')
+                  .bg-color-1.px-3.py-1.mb-3
+                    h4.mb-0.text-center.text-white Ajuste de maquinaria
+                  p.mb-0 Mantenimiento de la máquina y uso de aditamentos, pies, guías y fólderes, agujas, altura de dientes, presión del pie prénsatela, enhebrado, devanado de hilo, tensión del hilo.
+                .tarjeta.bg-color-4.p-4.hcard-1
+                  .row.justify-content-center.mb-3
+                    .col-6
+                      img(src='@/assets/curso/temas/t1/26.svg' alt='')
+                  .bg-color-1.px-3.py-1.mb-3
+                    h4.mb-0.text-center.text-white Operario
+                  p.mb-0 Manipulación del material, métodos utilizados en la operación.
+                .tarjeta.bg-color-4.p-4.hcard-1
+                  .row.justify-content-center.mb-3
+                    .col-6
+                      img(src='@/assets/curso/temas/t1/27.svg' alt='')
+                  .bg-color-1.px-3.py-1.mb-3
+                    h4.mb-0.text-center.text-white Instrucciones de cuidado y terminados
+                  p.mb-0 Según la norma, tener en cuenta los símbolos y la composición del material, incluidas en la etiqueta adherida en la prenda.
+
+
+      p.mb-5 Para conocer algunos defectos pueden revisar el documento que se deja a continuación:
+
+      .bg-full-width.bg-color-7.br-4.mb-0(data-aos='fade-right')
+        .p-full-width-2
+          .row.justify-content-center.align-items-center
+            .col-lg-1.d-none.d-lg-block
+              img(src='@/assets/curso/temas/bg/6.svg', alt='')
+            .col-lg-9.mb-cus
+               h2.mb-3.text-white Listado de defectos de confección
+               p.mb-0.text-white Puede descargar este documento para conocer algunos defectos de confección.
+            .col-lg-2
+               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_Listado_de_defectos.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download 
+
+
+
+
       Separador
       #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 1.4 Control de calidad en terminados
