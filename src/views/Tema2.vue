@@ -561,7 +561,190 @@
       #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 2.2 Técnicas de muestreo
       
+      p.mb-5 Una vez se determinen los criterios para realizar las inspecciones de producción, se utiliza la estadística para manejar, sobre todo grandes unidades de productos de un lote y variables de este.
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-7
+          p.mb-4 La elección de la muestra es muy importante, porque del cumplimiento de sus características en el lote dependen las decisiones a tomar sobre el mismo; por tanto, se debe dar cumplimiento al rasgo de representatividad del lote. Del tamaño de las muestras y la forma de escoger sus propiedades depende el nivel de error obtenido en las inspecciones y sus mediciones.
+          p.mb-4 El plan de muestreo a elegir debe tener en cuenta el número promedio de productos a auditar con el fin de controlar no solo el producto sino los costos por inspección.
+          .bg-color-6.p-4
+            p.mb-0 El muestreo a elegir ya sea en un proceso, o en un producto terminado o insumo puede ser diferente, es necesario verificar la capacidad de análisis del auditor para determinar la conveniencia de la técnica a utilizar además de establecer mezclas entre los tipos de muestreo.
+        .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t2/20.png', alt='')  
+      
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Muestreo probabilístico
+
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t2/21.png', alt='')
+        .col-sm-12.col-lg-9
+          .row.justify-content-center.mb-3
+            .col-sm-12.col-lg-5.d-none.d-lg-block.bg-color-9
+              img(src='@/assets/curso/temas/t2/22.svg', alt='')
+            .col-sm-12.col-lg-7
+              .bg-color-2.p-4
+                p.mb-0.text-white Este método utiliza formas de selección aleatoria, basado en la característica que todos los productos pueden hacer parte de una muestra, asegurando la representatividad de esta.
+                p.mb-2.text-white Este tipo de muestreo se clasifica en:
+                ul.lista-ul--color
+                  li.d-flex
+                    i.fas.fa-thread-green.icon-list-3
+                    p.mb-0.text-white  Muestreo aleatorio simple.
+                  li.d-flex
+                    i.fas.fa-thread-green.icon-list-3
+                    p.mb-0.text-white  Muestreo sistemático.
+                  li.d-flex
+                    i.fas.fa-thread-green.icon-list-3
+                    p.mb-0.text-white  Muestreo aleatorio estratificado.
+                  li.d-flex.mb-0
+                    i.fas.fa-thread-green.icon-list-3
+                    p.mb-0.text-white Muestreo por conglomerados (clústeres).
+          p.mb-2 En cada uno de los muestreos se debe tener en cuenta las siguientes variables:
+          ul.lista-ul--color
+            li.d-flex
+              i.fas.fa-thread
+              p.mb-0  #[b N = ]tamaño de la población o lote.
+            li.d-flex
+              i.fas.fa-thread
+              p.mb-0  #[b n = ]tamaño de la muestra.
+            li.d-flex
+              i.fas.fa-thread
+              p.mb-0  #[b k = ]intervalo de salto para elegir el siguiente elemento que conforme la muestra.
+            li.d-flex.mb-0
+              i.fas.fa-thread
+              p.mb-0 #[b I = ]arranque aleatorio, elemento o producto de punto de partida, es el inicio para determinar la muestra.
+      p.mb-5 El cálculo del tamaño de la muestra se realiza de acuerdo con cálculos estadísticos que se realizan mediante programas informáticos, en donde se tienen en cuenta el error estándar, el intervalo de confianza, la media, entre otras medidas. Es relevante tener en cuenta que entre mayor sea el tamaño de la muestra, menor es el error estándar.
+
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Muestreo simple
+
+      p.mb-3 Este procedimiento de muestreo consiste en tomar una muestra definida de unidades, cuya elección se realiza al azar, una vez inspeccionadas se toma la decisión de aceptar o rechazar conforme a los criterios de la empresa. Este tipo de muestreo es útil en lotes pequeños.
+      p.mb-5 A continuación puede tener una comparación entre las ventajas y desventajas del muestreo simple.
+      
+      .tarjeta--container.row.mb-5.justify-content-center(data-aos='fade-right')
+        .col-md-6.col-lg-5.tarjeta.color-secundario.p-5
+          .row.justify-content-center.mb-4
+            .col-4
+                img(src='@/assets/curso/temas/t2/23.svg')          
+          h2.text-center Ventajas
+          p.mb-0 - Fácil y sencillo de analizar.
+          p.mb-0 - Cálculos inmediatos de media y varianza.
+          p.mb-0 - Análisis de datos en software especializado.
         
+        .col-md-6.col-lg-5.tarjeta.color-adicional-1.p-5
+          .row.justify-content-center.mb-4
+            .col-4
+                img(src='@/assets/curso/temas/t2/24.svg')          
+          h2.text-center.text-white Desventajas
+          p.mb-0.text-white - Necesita tener el marco muestral.
+          p.mb-0.text-white - El número pequeño de la muestra puede no representar el lote.
+      .cajon.color-acento-contenido.p-5.mb-5
+          h4 Ejemplo
+          p.mb-0 Se necesita validar un lote de 200 rollos de telas (N), cada uno de 60 metros, el tamaño de la muestra es de 300 metros (n) y el número de metros de tela aceptados es de 20 metros.
+
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Muestreo doble
+
+      p.mb-5 Para validar un lote es necesario conocer el resultado de las inspecciones de dos muestras de este, cuando se presenten resultados dudosos en la primera muestra, por lo tanto, se pueden combinar los resultados de ambas muestras para determinar si se acepta o rechaza el lote.
+
+      img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t2/26.png', alt='')
+      .cajon.color-acento-contenido.p-5.mb-5
+          h4 Ejemplo
+          p.mb-0 Se tiene un lote de 100 unidades (N), de acuerdo con los criterios de inspección de la empresa, se toman muestras de 20 unidades (n) y si se encuentran 2 unidades defectuosas (RQL) el lote se rechaza. Al realizar inspección se encuentra 1 unidad defectuosa, por lo tanto, se procede a inspeccionar una segunda muestra donde se encuentran 2 unidades defectuosas, por tanto, el lote se rechaza.
+
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Muestreo múltiple
+
+
+      p.mb-3 Es similar al muestreo doble solo que se puede repetir (n) veces. Puede ser por conglomerados o estratificado.
+
+      p.mb-3 En el muestreo por conglomerados se dividen los lotes en subgrupos, luego la cantidad de conglomerados es definida aleatoriamente y se combinan en una sola muestra, esto debido al gran tamaño del lote de forma que se facilita el análisis de los datos, además las variaciones en cada grupo son menores, que las variaciones entre los grupos.
+
+      p.mb-5 A continuación puede tener una comparación entre las ventajas y desventajas del muestreo por conglomerados.
+
+
+      .tarjeta--container.row.mb-5.justify-content-center(data-aos='fade-right')
+        .col-md-6.col-lg-5.tarjeta.color-secundario.p-5
+          .row.justify-content-center.mb-4
+            .col-4
+                img(src='@/assets/curso/temas/t2/23.svg')          
+          h2.text-center Ventajas
+          p.mb-0 - Eficiencia en el manejo de los datos porque son grandes y dispersos.
+          p.mb-0 - No es necesario tener listado de toda la población.
+        
+        .col-md-6.col-lg-5.tarjeta.color-adicional-1.p-5
+          .row.justify-content-center.mb-4
+            .col-4
+                img(src='@/assets/curso/temas/t2/24.svg')          
+          h2.text-center.text-white Desventajas
+          p.mb-0.text-white  - El error estándar es mayor.
+          p.mb-0.text-white  - Cálculo de error estándar es más complejo.
+
+
+      p.mb-0 En el muestreo estratificado se eligen las muestras de acuerdo con variables comunes los cuales catalogan los estratos dentro de los lotes.
+      p.mb-5 A continuación puede tener una comparación entre las ventajas y desventajas del muestreo estratificado.
+
+      .tarjeta--container.row.mb-5.justify-content-center(data-aos='fade-right')
+        .col-md-6.col-lg-5.tarjeta.color-secundario.p-5
+          .row.justify-content-center.mb-4
+            .col-4
+                img(src='@/assets/curso/temas/t2/23.svg')          
+          h2.text-center Ventajas
+          p.mb-0 - Estimaciones más precisas.
+          p.mb-0 - Muestra más parecida al lote.
+        
+        .col-md-6.col-lg-5.tarjeta.color-adicional-1.p-5
+          .row.justify-content-center.mb-4
+            .col-4
+                img(src='@/assets/curso/temas/t2/24.svg')          
+          h2.text-center.text-white Desventajas
+          p.mb-0.text-white  - Se debe conocer la población o lote y la distribución de las variables.
+
+
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Muestreo de aceptación
+
+      p.mb-5 Consiste en validar la muestra de un lote donde se toma la decisión de aceptación o rechazo; si la muestra es rechazada se procede a realizar la inspección del 100% del lote. Se pueden analizar según:
+
+      ul.lista-ul--color
+          li.d-flex
+            i.fas.fa-thread
+            p.mb-0  #[b Variables:] se realizan mediciones para determinar la aceptación o rechazo.
+
+      .row.justify-content-start.mb-5
+        .col-sm-12.col-lg-8
+          p.mb-0 #[b Ejemplo:] la empresa fabrica 3.600 unidades de la referencia B-454 por semana. Los auditores seleccionan muestras de 259 unidades de B-454, y mide el contorno de busto de la camiseta para determinar si acepta o rechaza todo el lote. La camiseta es defectuosa si el contorno mide más de 0.55 cm, el cual es (LES) o menos de 0.2 cms, que es el límite de especificación inferior (LEI) de la medida proporcionada en cada talla. Además, se establecen AQL y RQL, para determinar si el lote en las mediciones de las 259 unidades no sobrepasó los valores. Según el plan de muestreo se define que si 3 unidades no cumplen los límites se rechaza el lote. Al inspeccionar las 259 unidades todas cumplen las mediciones en sus contornos, por lo tanto, se acepta el lote.
+
+      ul.lista-ul--color
+          li.d-flex
+            i.fas.fa-thread
+            p.mb-0  #[b Atributos:] de acuerdo con las características no medibles, se determinan cuantos defectos son aceptados para determinar la aceptación o rechazo del lote.
+
+      .row.justify-content-start.mb-5
+        .col-sm-12.col-lg-8
+          p.mb-0 #[b Ejemplo:] se reciben 10000 conos de hilo blanco; el plan de muestreo especifica que el AQL es de 1,5% y el RQL es 5%, el resultado del cálculo es que se deben inspeccionar 209 conos y se rechazará el lote se encuentran 6 defectuosos. Al realizar la inspección se encuentran 7 unidades defectuosas, por lo tanto, el lote se rechaza.
+      
+      p.mb-3 Se pueden generar formatos para realizar muestreos como el siguiente en el proceso de corte:
+      img.mb-5(src='@/assets/curso/temas/t2/25.png', alt='')
+
+      .bg-full-width.bg-color-7.br-4.mb-0
+        .p-full-width-2
+          .row.justify-content-center.align-items-center
+            .col-lg-1.d-none.d-lg-block
+              img(src='@/assets/curso/temas/bg/6.svg', alt='')
+            .col-lg-9.mb-cus
+               h2.mb-3.text-white Formato muestreos de calidad en extendido y corte
+               p.mb-0.text-white Puede descargar este formato en PDF para su uso.
+            .col-lg-2
+               a.boton.color-acento-botones(:href="obtenerLink('/downloads/formato_muestreo_de_calidad_en_extendido_y_corte.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download 
+
+      
 
   </template>
 
