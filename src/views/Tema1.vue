@@ -405,17 +405,333 @@
         h2 1.4 Control de calidad en terminados
       
       
+      .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
+        .col-sm-12.col-lg-5.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/29.png', alt='')
+        .col-sm-12.col-lg-7
+          .row.justify-content-center.mb-4
+            .col-sm-12.col-lg-2.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/30.svg', alt='')
+            .col-sm-12.col-lg-10
+                p.mb-3 En los terminados se incluyen procesos de planchado, empaque, embalaje y procesos de acabados como lavandería, estampación y bordado.
+                p.mb-0 Puede ser que los procesos de acabados se desarrollen de manera externa a la empresa, es decir, que se subcontratan y por lo tanto, aumenta la importancia de establecer los puntos de control una vez ingresen a la planta, para validar las prendas o piezas una vez se realicen los procesos contratados.
+          .bg-color-4.p-4
+            p.mb-0 El planchado es la última operación del proceso de producción, es necesario que las personas responsables de la sección tengan los criterios claros para evaluar las prendas que pasarán a las operaciones para la entrega al cliente.
       
       
-      
-      
-      
+      p.mb-5 Los requisitos para revisar en cada una de las actividades del proceso de acabados son los siguientes:
+      .bg-fondo-2.mb-0.p-4
+        .tarjeta.bg-color-8.p-4
+          SlyderA(tipo="b")
+            .row.justify-content-center.mb-0.pt-4
+              .col-sm-12.col-lg-5
+                h4.mb-3 Planchado
+                p.mb-0 Este debe ser uniforme, con los quiebres según lo especificado, si se debe doblar que no genere arrugas, control en la temperatura para que no queme la pieza, limpieza, además del control en la presión y la humedad.
+              .col-sm-12.col-lg-5.d-none.d-lg-block
+                img(src='@/assets/curso/temas/t1/31.png', alt='')
+            .row.justify-content-center.mb-0.pt-4
+              .col-sm-12.col-lg-5
+                h4.mb-3 Empaque
+                p.mb-0 Según lo establecido por la empresa, utilizar los recursos como el gancho, bolsa y etiqueta correspondiente.
+              .col-sm-12.col-lg-5.d-none.d-lg-block
+                img(src='@/assets/curso/temas/t1/32.png', alt='')
+            .row.justify-content-center.mb-0.pt-4
+              .col-sm-12.col-lg-5
+                h4.mb-3 Embalaje
+                p.mb-0 Teniendo en cuenta el pedido del cliente, utilizar materiales como cajas, cinta de amarre o zuncho, cinta adhesiva, tensor para la cinta de amarre. Rotular para identificar el contenido y organizar el contenido.
+              .col-sm-12.col-lg-5.d-none.d-lg-block
+                img(src='@/assets/curso/temas/t1/33.png', alt='')
+            .row.justify-content-center.mb-0.pt-4
+              .col-sm-12.col-lg-5
+                h4.mb-3 Estampados
+                p.mb-0 Observar que exista uniformidad del dibujo y colores, posición y ubicación.
+              .col-sm-12.col-lg-5.d-none.d-lg-block
+                img(src='@/assets/curso/temas/t1/34.png', alt='')
+            .row.justify-content-center.mb-0.pt-4
+              .col-sm-12.col-lg-5
+                h4.mb-3 Bordados
+                p.mb-0 Revisar que la tensión del hilo, colores y letras correspondan al diseño, posición y ubicación.
+              .col-sm-12.col-lg-5.d-none.d-lg-block
+                img(src='@/assets/curso/temas/t1/35.png', alt='')
+            .row.justify-content-center.mb-0.pt-4
+              .col-sm-12.col-lg-5
+                h4.mb-3 Rebordados
+                p.mb-0 Verificar la alineación y ubicación en la colocación de pedrería u otros, el diseño debe corresponder al rebordado realizado.
+              .col-sm-12.col-lg-5.d-none.d-lg-block
+                img(src='@/assets/curso/temas/t1/36.png', alt='')
+            .row.justify-content-center.mb-0.pt-4
+              .col-sm-12.col-lg-5
+                h4.mb-3 Lavandería
+                p.mb-0 Comprobar la uniformidad de colores, que el proceso corresponda al solicitado, sin dañar las costuras o el tejido de tela.
+              .col-sm-12.col-lg-5.d-none.d-lg-block
+                img(src='@/assets/curso/temas/t1/37.png', alt='')
+
+
+
       
       Separador
       #t_1_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 1.5 Control de calidad en insumos, materiales y textiles
       
-        
+      
+      .row.justify-content-center.mb-5.align-items-end
+        .col-sm-12.col-lg-8
+          p.mb-3 La comunicación con la cadena de abastecimiento es muy importante para solucionar de manera eficiente los problemas derivados que puedan ocurrir en la producción de las prendas.
+          p.mb-3 Los espacios disponibles para recibir los diferentes elementos deben cumplir con condiciones óptimas de ventilación, iluminación, seguridad, aseo y organización, que afectan los requerimientos de calidad en la cadena productiva. El control de inventarios está relacionado directamente con el control de calidad, ya que produce la información para generar las mejoras en la gestión de la empresa.
+          .bg-color-3.p-4
+            p.mb-0 En las entradas del proceso de producción uno de los recursos son los insumos y materias primas, las revisiones de calidad sobre estos responden a uno de los principios de calidad que es hacer las cosas bien desde el principio, lo que asegura el flujo de los procesos, así mismo, al finalizar el proceso de producción se requieren materiales para la entrega del producto al cliente los cuales de igual manera se deben validar.
+        .col-sm-12.col-lg-4.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/40.svg', alt='')
+
+
+      .titulo-tercer-nivel.mb-5
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Control de calidad en insumos
+
+      .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
+        .col-sm-12.col-lg-3.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/38.png', alt='')
+        .col-sm-12.col-lg-8
+          p.mb-3 Los requisitos necesarios para cumplir con las solicitudes de insumos son la disponibilidad, en cuanto a tiempos de obtención para su uso y las características propias de los mismos como funcionalidad, composición, tamaño, peso, color y uniformidad.
+          p.mb-5 En el caso de los hilos se analizan propiedades como elasticidad, flexibilidad, durabilidad, resistencia a rotura, tenacidad, solidez al color, uniformidad de tono y grosor.
+          .row.justify-content-center.mb-0
+            .col-sm-12.col-lg-7
+              .bg-color-2.p-4
+                p.mb-4.text-white En los elásticos es importante realizar pruebas de recuperación de su longitud, teniendo en cuenta el reposo y la tensión ejercida en su elongación.
+                p.mb-0.text-white Es importante controlar desperdicios generados en la producción de los insumos, los cuales inciden en el costo del producto, de allí la importancia del control de los consumos en la planta.
+            .col-sm-12.col-lg-5.d-none.d-lg-block.bg-color-5
+              img(src='@/assets/curso/temas/t1/39.svg', alt='')  
+
+
+
+      p.mb-5 La siguiente tabla muestra pruebas especializadas que se realizan, para evaluar características de algunos insumos, así como la norma de calidad:
+      .titulo-sexto.color-secundario
+        p.mb-0  #[b Tabla 1.] Pruebas de calidad en laboratorios para insumos: cremallera
+      .tabla-b.color-primario.mb-5
+        table
+          thead
+            tr
+              th #[b Ensayo]
+              th #[b Norma]
+          tbody
+            tr
+              td Análisis cualitativo.
+              td NTC 1213 / AATCC 20
+            tr
+              td Análisis cuantitativo.
+              td NTC 481:2012 / ASTMD 629:2008
+            tr
+              td Resistencia del freno.
+              td NTC 2512 / BS 3084
+            tr
+              td Resistencia del deslizador de tira simple en cierres separables.
+              td NTC 2512 / BS 3084
+            tr
+              td Determinación de las medidas de longitud de los cierres.
+              td NTC 2512 / BS 3084
+            tr
+              td Resistencia a la carga lateral del cierre.
+              td NTC 2512 / BS 3084
+            tr
+              td Resistencia lateral del conjunto separable (pin y caja).
+              td NTC 2512 / BS 3084
+            tr
+              td Resistencia de la paleta del deslizador.
+              td NTC 2512 / BS 3084
+            tr
+              td Resistencia a la fijación del tope inferior por separación de la tira.
+              td NTC 2512 / BS 3084
+            tr
+              td Resistencia del tope superior.
+              td NTC 2512 / BS 3084
+            tr
+              td Resistencia de la caja retenedora.
+              td NTC 2512 / BS 3084
+            tr
+              td Método de ensayo para determinar la solidez del color al lavado en seco usando solvente percloroetileno.
+              td NTC 4160/ISO 105D01
+      .titulo-sexto.color-secundario
+        p.mb-0  #[b Tabla 2.] Pruebas de calidad en laboratorios para insumos: botones
+      .tabla-b.color-primario.mb-5
+        table
+          thead
+            tr
+              th #[b Ensayo]
+              th #[b Norma]
+          tbody
+            tr
+              td Análisis cualitativo.
+              td NTC 1213 / AATCC 20
+            tr
+              td Dimensiones.
+              td NTC 2510
+            tr
+              td Evaluación tono a tono.
+              td NTC 2510
+            tr
+              td Solidez del color al planchado.
+              td NTC 2510
+            tr
+              td Solidez del color al lavado en seco.
+              td NTC 2510
+      .titulo-sexto.color-secundario
+        p.mb-0  #[b Tabla 3.] Pruebas de calidad en laboratorios para insumos: hilos
+      .tabla-b.color-primario.mb-5
+        table
+          thead
+            tr
+              th #[b Ensayo]
+              th #[b Norma]
+          tbody
+            tr
+              td Análisis cualitativo.
+              td NTC 1213 / AATCC 20
+            tr
+              td Análisis cuantitativo.
+              td NTC 431:2012 / ASTMD 629:2008
+            tr
+              td Determinación de la densidad lineal de hilo (título de hilo) mediante el método de la madeja.
+              td NTC 842:2011 / ASTM D1907:2007
+            tr
+              td Determinación de la humedad.
+              td NTC 1378
+            tr
+              td Determinación del encogimiento en agua en ebullición.
+              td NTC 2089
+            tr
+              td Determinación de las materias extraíbles.
+              td NTC 751
+            tr
+              td Determinación de la pilosidad de hebras textiles.
+              td NTC 1153
+            tr
+              td Método de ensayo para la uniformidad de hebras textiles usando equipo de ensayo de capacitancia.
+              td NTC 1153
+            tr
+              td Ensayo de propiedades tensión hilos método monofilamento.
+              td NTC 386:2011 / ASTM D 2256
+            tr
+              td Determinación de la solidez del color al agua de mar.
+              td NTC 850 / AATCC 106
+            tr
+              td Solidez del color al agua.
+              td AATCC 107:2013
+            tr
+              td Solidez del color al lavado en seco.
+              td NTC 4160 / ISO 105D01
+            tr
+              td Método de ensayo para determinar la solidez del color a la transpiración.
+              td NTC 772: 2017 / AATCC 15
+            tr
+              td Solidez del color al frote lineal.
+              td NTC 786 / AATCC 8
+            tr
+              td Método de ensayo para la determinación de la solidez del color al lavado doméstico e industrial.
+              td NTC 1155-3:2017 / AATCC 61:2013
+            tr
+              td Solidez del color a la luz solar.
+              td NTC 1479-2 / ISO 105– B02
+            tr
+              td Determinación de torsiones.
+              td NTC 443–NTC 752
+            tr
+              td Formaldehído libre.
+              td ISO 14184-1:2011
+            tr
+              td Metales extraíbles (plomo, cobre, cadmio, níquel, cromo, cobalto, hierro, manganeso, cinc).
+              td ISO 17072-1:2011
+      p.mb-5 A continuación, se detallan los parámetros de control de materiales y textiles, vinculando sus propiedades físicas con las normas técnicas que regulan la validación de los textiles.
+
+
+      TabsC.color-primario.mb-5(data-aos='fade-right')
+        .py-3.py-md-4(titulo="Control de calidad de materiales")  
+          .row.justify-content-center.mb-5.align-items-start
+            .col-sm-12.col-lg-5.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/41.png', alt='')
+            .col-sm-12.col-lg-6
+              p.mb-4.mt-3 Los materiales que apoyan la producción también requieren un proceso de control de calidad, la papelería es muy importante en el proceso por lo que hay que revisar sus especificaciones técnicas las cuales deben corresponder a su aplicación en el proceso productivo.
+              p.mb-0 Para validar el uso de los materiales en las diferentes áreas se inspeccionan requisitos de disponibilidad, en cuanto a tiempos de obtención para su uso y las características propias de los mismos como funcionalidad, composición, tamaño, peso, color y uniformidad.
+        .py-3.py-md-4(titulo="Control de calidad en textiles")  
+          .row.justify-content-center.mb-5.align-items-start
+            .col-sm-12.col-lg-5.d-none.d-lg-block
+              img(src='@/assets/curso/temas/t1/42.png', alt='')
+            .col-sm-12.col-lg-6
+              p.mb-4.mt-3 En el caso de los textiles, teniendo en cuenta las propiedades asociadas a su composición se realizan las inspecciones en las que pueden ser observables con detenimiento, pero es necesario realizar pruebas de laboratorio que garanticen la calidad para su utilización.
+              p.mb-0 Se tienen en cuenta algunas de ellas como las que se realizan en las pruebas de laboratorio, en el cuadro se observa el tipo de ensayo y la norma que lo regula.
+
+
+
+
+
+
+
+
+      .titulo-sexto.color-secundario
+        p.mb-0  #[b Tabla 4.] Pruebas de calidad en laboratorios para textiles
+      .tabla-b.color-primario.mb-5
+        table
+          thead
+            tr
+              th #[b Ensayo]
+              th #[b Norma]
+          tbody
+            tr
+              td Análisis cualitativo de fibras.
+              td NTC 1213
+            tr
+              td Análisis cualitativo de fibras.
+              td AATCC 20
+            tr
+              td Análisis cualitativo de fibras.
+              td ASTMD 276
+            tr
+              td Análisis cuantitativo.
+              td NTC 431: 2012
+            tr
+              td Análisis cuantitativo.
+              td ASTMD 629:2008
+            tr
+              td Coeficiente de fricción.
+              td ASTMD 3412
+            tr
+              td Determinación de la densidad lineal (título).
+              td NTC 959
+            tr
+              td Determinación de las materias extraíbles.
+              td NTC 751
+            tr
+              td Determinación de los rizos por unidad de longitud.
+              td NTC 840
+            tr
+              td Determinación de la resistencia a la tracción y alargamiento de fibras
+              td NTC 959
+            tr
+              td Libre de formaldehído.
+              td ISO 14184-1:2011
+
+
+      .row.justify-content-center.mb-5
+        .col-sm-12.col-lg-8
+          .bg-color-3.p-4
+            p.mb-3 La tela es la materia prima que más consume la prenda, es por eso que se debe revisar la uniformidad del color, que no tenga deshilados, huecos, motas, contaminación de otros hilos, la textura de acuerdo con el tejido, es decir, que no tenga arrugas diferentes a las relacionadas con su textura, la limpieza, los anchos de tela parejos y orillo de tela.
+            p.mb-3 Es importante revisar el comportamiento del textil al contacto con el agua y las temperaturas sobre todo las altas, en el dado caso la pieza, necesite de realizar fusionados y lo relacionado al planchado. Al lavar la tela se puede observar la recuperación y formación de arrugas, la solidez del color para que no migre dado caso que se presenten combinaciones de colores en las piezas y uso de insumos.
+            p.mb-0 También se debe tener en cuenta en las fibras, los efectos del contacto con bacterias y microorganismos y su incidencia en la durabilidad. Así mismo, el contacto con fluidos corporales como sangre, saliva o sudoración.
+        .col-sm-12.col-lg-4.d-none.d-lg-block
+          img(src='@/assets/curso/temas/t1/43.svg', alt='')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   </template>
 

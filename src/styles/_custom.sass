@@ -169,6 +169,23 @@ figcaption
 .crd--last
   &::before
     border-bottom-left-radius: 30px
+.tabs-c 
+    border-bottom: 0px
+.tabs-c.color-primario .tabs-c__tab
+    background-color: $color-primario
+    border-bottom-color: $color-primario
+    color: $white
+
+.tabs-c.color-primario .tabs-c__tab--active
+    background-color: #fff
+    border-bottom-color: $color-acento-botones !important
+    color: $color-sistema-texto !important
+
+.tabs-c.color-primario .tabs-c__tab--active:before
+    border-top-color: $color-acento-botones !important
+    
+.tabs-c.color-primario .tabs-c__tab--active span
+    font-weight: bold !important
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -341,6 +358,13 @@ figcaption
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
+  .slyder-a__bullets__item
+    width: 5px;
+    height: 5px;
+    margin: 0 5px;
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 30px;
+    height: 30px;
 
   
  
