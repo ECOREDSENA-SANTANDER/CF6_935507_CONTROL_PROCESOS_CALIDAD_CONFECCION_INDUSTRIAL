@@ -8,7 +8,7 @@
         h1 Inspección y muestreos
       
       img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t2/1.png', alt='')
-      p.mb-0 De acuerdo con Jaramillo (1990) “la inspección es la acción de comparar un material, proceso o producto contra las especificaciones dadas previamente con el propósito de determinar el grado en que estos cumplen las especificaciones técnicas establecidas. De acuerdo con el porcentaje de artículos inspeccionados, la inspección puede ser (i) al 100%, que comprende el examen de cada artículo que haya en el lote, y (ii) por muestreo, que comprende la inspección de una pequeña parte de los artículos que hay en el lote o que se producen en el proceso. Cada empresa con base en sus políticas de calidad define los tamaños muestrales”.
+      p.mb-0 De acuerdo con Jaramillo (1990) “la inspección es la acción de comparar un material, proceso o producto contra las especificaciones dadas previamente con el propósito de determinar el grado en que estos cumplen las especificaciones técnicas establecidas. De acuerdo con el porcentaje de artículos inspeccionados, la inspección puede ser (i) al 100 %, que comprende el examen de cada artículo que haya en el lote, y (ii) por muestreo, que comprende la inspección de una pequeña parte de los artículos que hay en el lote o que se producen en el proceso. Cada empresa con base en sus políticas de calidad define los tamaños muestrales”.
       
       
       
@@ -34,7 +34,7 @@
                 ul.lista-ul--color.mb-0
                   li.d-flex
                     i.fas.fa-thread.icon-list-3
-                    p.mb-0 #[b 100%:] se examinan todos los artículos de un lote.
+                    p.mb-0 #[b 100 %:] se examinan todos los artículos de un lote.
                   li.d-flex
                     i.fas.fa-thread.icon-list-3
                     p.mb-0 #[b Muestreo:] examinando la muestra establecida, se incide la conclusión en todo el lote o producción.
@@ -328,7 +328,7 @@
                 p.mb-0 Correspondencia de las medidas de prenda terminada con las especificadas en ficha técnica, según desarrollo de patronaje. 
               li.d-flex.mb-0
                 i.fas.fa-thread.icon-list-3
-                p.mb-0 Plantillas creadas cumplen para la utilización por ejemplo marcación de posición de bolsillos 
+                p.mb-0 Plantillas creadas cumplen para la utilización por ejemplo marcación de posición de bolsillos.
 
       
 
@@ -438,7 +438,7 @@
             .col-6
                 img(src='@/assets/curso/temas/t2/9.svg')          
           h2.text-center Planchado
-          p.mb-0 Revisar que no queden arrugas, los quiebres necesarios deben quedar derechos y en el lugar especificado
+          p.mb-0 Revisar que no queden arrugas, los quiebres necesarios deben quedar derechos y en el lugar especificado.
         
         .col-md.tarjeta.color-adicional-2.p-5
           .row.justify-content-center.mb-4
@@ -630,7 +630,7 @@
           h2.text-center Ventajas
           p.mb-0 - Fácil y sencillo de analizar.
           p.mb-0 - Cálculos inmediatos de media y varianza.
-          p.mb-0 - Análisis de datos en software especializado.
+          p.mb-0 - Análisis de datos en #[i software] especializado.
         
         .col-md-6.col-lg-5.tarjeta.color-adicional-1.p-5
           .row.justify-content-center.mb-4
@@ -708,7 +708,7 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Muestreo de aceptación
 
-      p.mb-5 Consiste en validar la muestra de un lote donde se toma la decisión de aceptación o rechazo; si la muestra es rechazada se procede a realizar la inspección del 100% del lote. Se pueden analizar según:
+      p.mb-5 Consiste en validar la muestra de un lote donde se toma la decisión de aceptación o rechazo; si la muestra es rechazada se procede a realizar la inspección del 100 % del lote. Se pueden analizar según:
 
       ul.lista-ul--color
           li.d-flex
@@ -726,10 +726,13 @@
 
       .row.justify-content-start.mb-5
         .col-sm-12.col-lg-8
-          p.mb-0 #[b Ejemplo:] se reciben 10000 conos de hilo blanco; el plan de muestreo especifica que el AQL es de 1,5% y el RQL es 5%, el resultado del cálculo es que se deben inspeccionar 209 conos y se rechazará el lote se encuentran 6 defectuosos. Al realizar la inspección se encuentran 7 unidades defectuosas, por lo tanto, el lote se rechaza.
+          p.mb-0 #[b Ejemplo:] se reciben 10000 conos de hilo blanco; el plan de muestreo especifica que el AQL es de 1,5 % y el RQL es 5 %, el resultado del cálculo es que se deben inspeccionar 209 conos y se rechazará el lote se encuentran 6 defectuosos. Al realizar la inspección se encuentran 7 unidades defectuosas, por lo tanto, el lote se rechaza.
       
       p.mb-3 Se pueden generar formatos para realizar muestreos como el siguiente en el proceso de corte:
-      img.mb-5(src='@/assets/curso/temas/t2/25.png', alt='')
+      .titulo-sexto.color-primario(data-aos="fade-right")
+        h5 Figura 1. 
+        span Formato muestreos de calidad en extendido y corte
+      img.mb-5(src='@/assets/curso/temas/t2/25.png', alt='La figura describe un formato de registro para el muestreo de calidad en los procesos de extendido y corte de textiles. La tabla incluye campos para fecha, orden de corte, producto, datos del trazo y del extendido, así como criterios de inspección del corte, entre ellos aplome, bordes y extremos, simetrías, piquetes y validación contra molde, con opciones de “cumple” o “no cumple”. También dispone de un espacio para observaciones y la identificación del auditor.')
 
       .bg-full-width.bg-color-7.br-4.mb-0
         .p-full-width-2

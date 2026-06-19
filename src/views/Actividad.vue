@@ -383,7 +383,7 @@ export default {
             {
               id: 'd',
               texto:
-                'La cantidad de software instalado en el computador de diseño.',
+                'La cantidad de <i>software</i> instalado en el computador de diseño.',
               esCorrecta: false,
             },
           ],

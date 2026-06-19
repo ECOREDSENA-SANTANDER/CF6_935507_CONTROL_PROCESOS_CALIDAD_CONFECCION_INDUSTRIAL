@@ -130,7 +130,7 @@ export default {
     {
       termino: 'AQL',
       significado:
-        'siglas de las palabras en inglés acceptance quality level (nivel de calidad aceptable). es el nivel de calidad aceptado por el cliente, el cual debe estar especificado en la ficha técnica, contrato u órdenes de compra.',
+        'siglas de las palabras en inglés <i>Acceptance Quality Level</i> (nivel de calidad aceptable). es el nivel de calidad aceptado por el cliente, el cual debe estar especificado en la ficha técnica, contrato u órdenes de compra.',
     },
     {
       termino: 'Atributos',
@@ -155,12 +155,12 @@ export default {
     {
       termino: 'LEI',
       significado:
-        'límite de especificación inferior. es la medida de tolerancia mínima que puede aceptar una determinada variable.',
+        'Límite de Especificación Inferior. Es la medida de tolerancia mínima que puede aceptar una determinada variable.',
     },
     {
       termino: 'LES',
       significado:
-        'límite de especificación superior. es la medida de tolerancia máxima que puede aceptar una determinada variable.',
+        'Límite de Especificación Superior. Es la medida de tolerancia máxima que puede aceptar una determinada variable.',
     },
     {
       termino: 'Lote',
@@ -170,7 +170,7 @@ export default {
     {
       termino: 'Ltpd',
       significado:
-        'traducción de las siglas en inglés lot tolerance proportion defective. proporción defectuosa tolerable en el lote; es el peor nivel de calidad del lote que el cliente puede aceptar.',
+        'traducción de las siglas en inglés <i>Lot Tolerance Proportion Defective</i>. Proporción defectuosa tolerable en el lote; es el peor nivel de calidad del lote que el cliente puede aceptar.',
     },
     {
       termino: 'Marco muestral',
@@ -221,7 +221,7 @@ export default {
     {
       termino: 'RQL',
       significado:
-        'siglas de las palabras en inglés rejectable quality level (nivel de calidad rechazable). es el nivel de calidad que rechaza el cliente.',
+        'siglas de las palabras en inglés <i>Rejectable Quality Level</i> (nivel de calidad rechazable). Es el nivel de calidad que rechaza el cliente.',
     },
     {
       termino: 'Variabilidad',
@@ -258,31 +258,25 @@ export default {
     {
       referencia:
         'Evans, J., & Lindsay, W. (2015). Administración y Control de la calidad (9th ed.). Cengage.',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=786',
     },
     {
       referencia:
         'Gutiérrez, H. (2013). Control estadístico de la calidad y Seis Sigma (3rd ed.). McGraw-Hill Interamericana.',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=280',
     },
     {
       referencia:
         'Jaramillo, J. (1990). Control de calidad en la confección. Servicio Nacional de Aprendizaje (SENA).',
-      link: 'https://hdl.handle.net/11404/4253',
     },
     {
       referencia:
         'Pola, Á. (2009). Aplicación de la estadística al control de calidad. Marcombo.',
-      link: 'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/45842',
     },
     {
       referencia: 'SENA. (1990). Procedimientos para el control de la calidad.',
-      link: 'https://hdl.handle.net/11404/4260',
     },
     {
       referencia:
         'Verdoy, P. Mahiques, J. Sagasta, S. & Sirviente, R. (2006). Manual de control estadístico de calidad: teoría y aplicaciones.',
-      link: 'http://www.digitaliapublishing.com.bdigital.sena.edu.co/a/14732/manual-de-control-estadistico-de-calidad---teoria-y-aplicaciones',
     },
   ],
   creditos: [
@@ -342,9 +336,9 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Erika Daniela Manrique Rueda',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },

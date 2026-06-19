@@ -27,7 +27,7 @@
           img(src='@/assets/curso/temas/t1/2.png', alt='')
         .col-sm-12.col-lg-8
           p.mb-3 El control de los procesos es comprender cuales son las variaciones que se pueden presentar en las características del producto, encontrar las causas y tomar las decisiones para controlar la variabilidad, eliminar los errores, estandarizando el proceso mediante la aplicación de técnicas que permitan establecer mejoras y así controlar la variabilidad.
-          p.mb-4 En el proceso de patronaje la persona responsable del proceso junto con el auditor de calidad, realizan la revisión del paquete físico de moldes o patrones que comprenden la pieza con el fin de garantizar la calidad de los mismos, es importante revisarlos a pesar de que se hayan desarrollado el patronaje de la prenda con algún software especializado.
+          p.mb-4 En el proceso de patronaje la persona responsable del proceso junto con el auditor de calidad, realizan la revisión del paquete físico de moldes o patrones que comprenden la pieza con el fin de garantizar la calidad de los mismos, es importante revisarlos a pesar de que se hayan desarrollado el patronaje de la prenda con algún #[i software] especializado.
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-7
               .bg-color-2.p-4
@@ -287,7 +287,7 @@
         
         .bloque-texto-g__texto.p-4.d-flex.flex-column
           p.mb-4 Además de los factores anteriormente mencionados que son directos al proceso, se consideran los factores ambientales como la iluminación, ventilación, temperatura, ruido, espacio y aseo del lugar de trabajo. También los factores humanos relacionados con el personal como la capacitación y las relaciones interpersonales, los cuales afectan los resultados en los productos y por ende su calidad.
-          p.mb-0 También se pueden realizar pruebas o ensayos en laboratorios especializados que evalúen la prenda según las normas nacionales e internacionales, una de ellas es la prueba de uso en la que se comparan los resultados planteados y los reales obtenidos, de forma que se detecten las fallas en el proceso. En este tipo de pruebas se analizan las fibras, en cuanto a la cantidad, colorimetría, peso, composición, cambios dimensionales después del lavado, resistencia a la rotura y al desgarre, elongación y elasticidad de la tela, recuperación a las arrugas, resistencia a la abrasión, solidez al color con el frote, al agua, al planchado, resistencia a la formación de motas (pilling), entre otras.
+          p.mb-0 También se pueden realizar pruebas o ensayos en laboratorios especializados que evalúen la prenda según las normas nacionales e internacionales, una de ellas es la prueba de uso en la que se comparan los resultados planteados y los reales obtenidos, de forma que se detecten las fallas en el proceso. En este tipo de pruebas se analizan las fibras, en cuanto a la cantidad, colorimetría, peso, composición, cambios dimensionales después del lavado, resistencia a la rotura y al desgarre, elongación y elasticidad de la tela, recuperación a las arrugas, resistencia a la abrasión, solidez al color con el frote, al agua, al planchado, resistencia a la formación de motas (#[i pilling]), entre otras.
       
       p.mb-5 Descargue el documento y consulte los principales ensayos que se pueden realizar a la prenda y la norma de calidad relacionada al proceso, de acuerdo al organismo de estandarización que expide la norma.
 
@@ -309,22 +309,22 @@
             ul.lista-ul--color.mb-0
               li.d-flex
                 i.fas.fa-thread.icon-list-3
-                p.mb-0 #[b AATCC:] Asociación Estadounidense de Químicos y Coloristas Textiles (American Association of Textile Chemists and Colourists). 
+                p.mb-0 #[b AATCC:] Asociación Estadounidense de Químicos y Coloristas Textiles (#[i American Association of Textile Chemists and Colourists]). 
               li.d-flex
                 i.fas.fa-thread.icon-list-3
                 p.mb-0 #[b NTC:] Norma Técnica Colombiana. 
               li.d-flex
                 i.fas.fa-thread.icon-list-3
-                p.mb-0 #[b ASTMD:] Sociedad Americana para Pruebas y Materiales (American Society for Testing and Materials). 
+                p.mb-0 #[b ASTMD:] Sociedad Americana para Pruebas y Materiales (#[i American Society for Testing and Materials]). 
               li.d-flex
                 i.fas.fa-thread.icon-list-3
-                p.mb-0 #[b ISO:] Organización Internacional de Normalización (International Organization for Standardization). 
+                p.mb-0 #[b ISO:] Organización Internacional de Normalización (#[i International Organization for Standardization]). 
               li.d-flex
                 i.fas.fa-thread.icon-list-3
                 p.mb-0 #[b UNE:] Normalización Española. 
               li.d-flex.mb-0
                 i.fas.fa-thread.icon-list-3
-                p.mb-0 #[b AS/NZS:] Normalización de Nueva Zelanda y Australia (Standards Australia y Estándar New Zealand). 
+                p.mb-0 #[b AS/NZS:] Normalización de Nueva Zelanda y Australia (#[i Standards Australia y Estándar New Zealand]). 
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/11.svg', alt='')
 
