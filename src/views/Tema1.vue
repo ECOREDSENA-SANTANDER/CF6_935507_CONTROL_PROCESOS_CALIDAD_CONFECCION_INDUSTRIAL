@@ -14,8 +14,7 @@
 
       
       
-      p.mb-0 Al momento de estructurar un sistema de control de calidad, se parte de el diagrama operativo de la prenda a confeccionar, de forma que se tiene una visión global del proceso y a partir de ello se crea la estrategia de control. Para ello, se deben definir los puntos y las normas de inspección y la periodicidad de esta.
-      
+      p.mb-0 Para estructurar un sistema de control de calidad, se toma como punto de partida el diagrama operativo de la prenda que se va a confeccionar. Este permite obtener una visión global del proceso y definir la estrategia de control. Para ello, se establecen los puntos y las normas de inspección, así como la periodicidad con la que se realizarán las inspecciones.
       
       
       Separador
@@ -26,13 +25,14 @@
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/2.png', alt='')
         .col-sm-12.col-lg-8
-          p.mb-3 El control de los procesos es comprender cuales son las variaciones que se pueden presentar en las características del producto, encontrar las causas y tomar las decisiones para controlar la variabilidad, eliminar los errores, estandarizando el proceso mediante la aplicación de técnicas que permitan establecer mejoras y así controlar la variabilidad.
-          p.mb-4 En el proceso de patronaje la persona responsable del proceso junto con el auditor de calidad, realizan la revisión del paquete físico de moldes o patrones que comprenden la pieza con el fin de garantizar la calidad de los mismos, es importante revisarlos a pesar de que se hayan desarrollado el patronaje de la prenda con algún #[i software] especializado.
+          p.mb-3 El control de los procesos consiste en identificar cuáles son las variaciones que pueden presentarse en las características del producto, determinar sus causas y tomar decisiones para mantener la variabilidad dentro de límites aceptables y eliminar los errores. Para ello, se aplican técnicas que permiten estandarizar el proceso e implementar mejoras.
+
+          p.mb-4 En el proceso de patronaje, la persona responsable, junto con el auditor de calidad, revisa el conjunto físico de moldes o patrones que componen la prenda, con el fin de garantizar su calidad. Esta revisión debe realizarse incluso cuando el patronaje se haya desarrollado mediante un #[i software] especializado.
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-7
               .bg-color-2.p-4
                 p.mb-0.text-white Una vez se desarrolla la prenda la validación de los patrones debe estar contenida en un documento de revisión de patronaje, lo que permite la trazabilidad del proceso.
-                p.mb-0.text-white Los productos tienen variables y atributos, las variables son características cuantitativas y los atributos son las características no cuantificables, los cuales unidos son los requisitos de una prenda.
+                p.mb-0.text-white Los productos presentan variables y atributos. Las variables corresponden a características cuantitativas, mientras que los atributos corresponden a características cualitativas. Ambos, en conjunto, constituyen los requisitos de calidad de una prenda.
             .col-sm-12.col-lg-5.d-none.d-lg-block.bg-color-5
               img(src='@/assets/curso/temas/t1/1.svg', alt='')
       p.mb-5 Los requisitos además están clasificados de la siguiente manera:
@@ -75,7 +75,7 @@
             
             .row(numero="2" titulo="Cantidad de piezas")
               .col-12
-                p.mb-0 Se revisa la correspondencia de piezas respecto al diseño y al dibujo plano del patrón.
+                p.mb-0 Se verifica que la cantidad de piezas corresponda con el diseño y el dibujo plano del patrón.
             .row(numero="3" titulo="Señalización de pieza")
               .col-12
                 p.mb-0 Se debe identificar cada parte de la prenda de forma que no se preste a dualidades de información, además de contener la cantidad de piezas a cortar para el producto solicitado.
@@ -106,7 +106,7 @@
               img(src='@/assets/curso/temas/t1/9.svg', alt='')
             .col-sm-12.col-lg-10
                 p.mb-3 En cada una de las actividades que conforman el área de trazo y corte se establecen controles para revisar y garantizar la calidad del proceso.
-                p.mb-0 Las personas encargadas de cada actividad en el área deben contar con comunicación abierta para coordinar el proceso, debido a que el error en el área se replica igualmente en la producción. Con relación a lo anterior es importante detectar el problema a tiempo.
+                p.mb-0 Las personas encargadas de cada actividad del área deben mantener una comunicación abierta para coordinar el proceso, debido a que cualquier error puede replicarse en las etapas posteriores de la producción. Por esta razón, es importante detectarlo y corregirlo oportunamente.
           p.mb-0 Es primordial contar con la trazabilidad de la producción, para ubicar fácilmente cada lote, poder intervenir rápidamente en los productos a corregir y dar respuesta rápida para solucionar el inconveniente.
       
       p.mb-3 Los documentos utilizados en el área para controlar el corte, además de la orden de producción, son las inspecciones en corte para revisar cada actividad. Además de un formato que se puede anexar en el paqueteo donde se validen las unidades de cada pieza en cada paquete, siendo un apoyo visual importante en el alistamiento del proceso de confección.
@@ -138,7 +138,7 @@
           AcordionA(tipo="b" clase-tarjeta="tarjeta bg-brown")
             .row.justify-content-center.mb-0(titulo="Alineación de capas")
               .col-12
-                p.mb-0 Respetar la margen colocada a partir de la base, es decir la primera capa. También que en los extremos alcance a cubrir el largo del trazo, sobre todo en trazos escalonados.
+                p.mb-0 Se debe respetar el margen establecido a partir de la capa base, es decir, de la primera capa. Asimismo, las capas deben cubrir completamente la longitud del trazo en ambos extremos, especialmente cuando se realizan trazos escalonados.
             .row.justify-content-center.mb-0(titulo="Uniformidad de tendido")
               .col-12
                 p.mb-0 El extendido de cada capa no debe tener arrugas.
@@ -147,10 +147,10 @@
                 p.mb-0 Antes de cortar se debe contar el número de capas, y verificar que correspondan a las unidades a cortar según la distribución del trazo.
             .row.justify-content-center.mb-0(titulo="Tiempos de reposo")
               .col-12
-                p.mb-0 Sobre todo en tejidos de punto, para evitar encogimiento, se tiene en cuenta según ficha técnica de la tela y se valida con pruebas que confirmen niveles de encogimiento desarrollado una vez finalicen los tiempos de reposo.
+                p.mb-0 En los tejidos de punto, es especialmente importante respetar los tiempos de reposo para evitar encogimientos. Estos tiempos se establecen según la ficha técnica de la tela y, una vez finalizados, se realizan pruebas para verificar el porcentaje de encogimiento.
             .row.justify-content-center.mb-0(titulo="Lado de tela")
               .col-12
-                p.mb-0 Teniendo en cuenta el tipo de trazo, se deben respetar el derecho de la tela.
+                p.mb-0 De acuerdo con el tipo de trazo, se debe respetar la orientación del derecho de la tela.
             .row.justify-content-center.mb-0(titulo="Tela")
               .col-12
                 p.mb-0 Observar si existen defectos en la tela, marcar en lo posible la mayoría de piques y marras, entre otras observadas. Cuidar la combinación de rollos y de colores para evitar contaminación entre los colores por los residuos de las fibras en el corte del tejido.
@@ -289,7 +289,9 @@
           p.mb-4 Además de los factores anteriormente mencionados que son directos al proceso, se consideran los factores ambientales como la iluminación, ventilación, temperatura, ruido, espacio y aseo del lugar de trabajo. También los factores humanos relacionados con el personal como la capacitación y las relaciones interpersonales, los cuales afectan los resultados en los productos y por ende su calidad.
           p.mb-0 También se pueden realizar pruebas o ensayos en laboratorios especializados que evalúen la prenda según las normas nacionales e internacionales, una de ellas es la prueba de uso en la que se comparan los resultados planteados y los reales obtenidos, de forma que se detecten las fallas en el proceso. En este tipo de pruebas se analizan las fibras, en cuanto a la cantidad, colorimetría, peso, composición, cambios dimensionales después del lavado, resistencia a la rotura y al desgarre, elongación y elasticidad de la tela, recuperación a las arrugas, resistencia a la abrasión, solidez al color con el frote, al agua, al planchado, resistencia a la formación de motas (#[i pilling]), entre otras.
       
-      p.mb-5 Descargue el documento y consulte los principales ensayos que se pueden realizar a la prenda y la norma de calidad relacionada al proceso, de acuerdo al organismo de estandarización que expide la norma.
+      p.mb-5 Descargue el documento y consulte los principales ensayos que pueden realizarse a la prenda, junto con las normas de calidad relacionadas con cada proceso y los organismos de normalización que las expiden.
+
+
 
       .row.justify-content-center.mb-5.bg-color-9.br-4.p-5.align-items-center
         .col-sm-12.col-lg-4.d-none.d-lg-block
@@ -321,10 +323,10 @@
                 p.mb-0 #[b ISO:] Organización Internacional de Normalización (#[i International Organization for Standardization]). 
               li.d-flex
                 i.fas.fa-thread.icon-list-3
-                p.mb-0 #[b UNE:] Normalización Española. 
+                p.mb-0 #[b UNE:] Asociación Española de Normalización. 
               li.d-flex.mb-0
                 i.fas.fa-thread.icon-list-3
-                p.mb-0 #[b AS/NZS:] Normalización de Nueva Zelanda y Australia (#[i Standards Australia y Estándar New Zealand]). 
+                p.mb-0 #[b AS/NZS:] ormas conjuntas de Australia y Nueva Zelanda, elaboradas por los organismos #[i Standards Australia] y #[i Standards New Zealand.]
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/11.svg', alt='')
 
@@ -382,7 +384,7 @@
                   p.mb-0 Según la norma, tener en cuenta los símbolos y la composición del material, incluidas en la etiqueta adherida en la prenda.
 
 
-      p.mb-5 Para conocer algunos defectos pueden revisar el documento que se deja a continuación:
+      p.mb-5 Para conocer algunos defectos de confección, consulte el documento que se presenta a continuación.
 
       .bg-full-width.bg-color-7.br-4.mb-0(data-aos='fade-right')
         .p-full-width-2
@@ -479,7 +481,7 @@
           p.mb-3 La comunicación con la cadena de abastecimiento es muy importante para solucionar de manera eficiente los problemas derivados que puedan ocurrir en la producción de las prendas.
           p.mb-3 Los espacios disponibles para recibir los diferentes elementos deben cumplir con condiciones óptimas de ventilación, iluminación, seguridad, aseo y organización, que afectan los requerimientos de calidad en la cadena productiva. El control de inventarios está relacionado directamente con el control de calidad, ya que produce la información para generar las mejoras en la gestión de la empresa.
           .bg-color-3.p-4
-            p.mb-0 En las entradas del proceso de producción uno de los recursos son los insumos y materias primas, las revisiones de calidad sobre estos responden a uno de los principios de calidad que es hacer las cosas bien desde el principio, lo que asegura el flujo de los procesos, así mismo, al finalizar el proceso de producción se requieren materiales para la entrega del producto al cliente los cuales de igual manera se deben validar.
+            p.mb-0 Entre las entradas del proceso de producción se encuentran los insumos y las materias primas. Su control de calidad responde al principio de hacer las cosas bien desde el comienzo y contribuye a asegurar la continuidad del proceso. Asimismo, al finalizar la producción, deben verificarse los materiales requeridos para la entrega del producto al cliente.
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/40.svg', alt='')
 
@@ -497,8 +499,9 @@
           .row.justify-content-center.mb-0
             .col-sm-12.col-lg-7
               .bg-color-2.p-4
-                p.mb-4.text-white En los elásticos es importante realizar pruebas de recuperación de su longitud, teniendo en cuenta el reposo y la tensión ejercida en su elongación.
-                p.mb-0.text-white Es importante controlar desperdicios generados en la producción de los insumos, los cuales inciden en el costo del producto, de allí la importancia del control de los consumos en la planta.
+                p.mb-4.text-white En el caso de los elásticos, es importante realizar pruebas para verificar su capacidad de recuperar la longitud original, teniendo en cuenta el tiempo de reposo y la tensión aplicada durante la elongación.
+
+                p.mb-0.text-white Es importante controlar los desperdicios generados durante el uso de los insumos, ya que estos inciden en el costo del producto. Por esta razón, también deben controlarse los consumos en la planta de producción.
             .col-sm-12.col-lg-5.d-none.d-lg-block.bg-color-5
               img(src='@/assets/curso/temas/t1/39.svg', alt='')  
 
@@ -630,7 +633,7 @@
               td NTC 1155-3:2017 / AATCC 61:2013
             tr
               td Solidez del color a la luz solar.
-              td NTC 1479-2 / ISO 105– B02
+              td NTC 1479-2 / ISO 105-B02
             tr
               td Determinación de torsiones.
               td NTC 443–NTC 752
@@ -649,7 +652,8 @@
             .col-sm-12.col-lg-5.d-none.d-lg-block
               img(src='@/assets/curso/temas/t1/41.png', alt='')
             .col-sm-12.col-lg-6
-              p.mb-4.mt-3 Los materiales que apoyan la producción también requieren un proceso de control de calidad, la papelería es muy importante en el proceso por lo que hay que revisar sus especificaciones técnicas las cuales deben corresponder a su aplicación en el proceso productivo.
+              p.mb-4.mt-3 Los materiales utilizados en la producción también requieren control de calidad. En el caso de la papelería, se deben revisar sus especificaciones técnicas para verificar que correspondan con su uso en el proceso productivo.
+
               p.mb-0 Para validar el uso de los materiales en las diferentes áreas se inspeccionan requisitos de disponibilidad, en cuanto a tiempos de obtención para su uso y las características propias de los mismos como funcionalidad, composición, tamaño, peso, color y uniformidad.
         .py-3.py-md-4(titulo="Control de calidad en textiles")  
           .row.justify-content-center.mb-5.align-items-start
@@ -703,7 +707,7 @@
               td Determinación de los rizos por unidad de longitud.
               td NTC 840
             tr
-              td Determinación de la resistencia a la tracción y alargamiento de fibras
+              td Determinación de la resistencia a la tracción y alargamiento de fibras.
               td NTC 959
             tr
               td Libre de formaldehído.
@@ -714,7 +718,7 @@
         .col-sm-12.col-lg-8
           .bg-color-3.p-4
             p.mb-3 La tela es la materia prima que más consume la prenda, es por eso que se debe revisar la uniformidad del color, que no tenga deshilados, huecos, motas, contaminación de otros hilos, la textura de acuerdo con el tejido, es decir, que no tenga arrugas diferentes a las relacionadas con su textura, la limpieza, los anchos de tela parejos y orillo de tela.
-            p.mb-3 Es importante revisar el comportamiento del textil al contacto con el agua y las temperaturas sobre todo las altas, en el dado caso la pieza, necesite de realizar fusionados y lo relacionado al planchado. Al lavar la tela se puede observar la recuperación y formación de arrugas, la solidez del color para que no migre dado caso que se presenten combinaciones de colores en las piezas y uso de insumos.
+            p.mb-3 Es importante evaluar el comportamiento del textil frente al agua y a las altas temperaturas, especialmente cuando la pieza requiera procesos de fusionado o planchado. Mediante pruebas de lavado se pueden verificar la recuperación dimensional, la formación de arrugas y la solidez del color, con el fin de evitar la migración del color cuando se combinen piezas o insumos de diferentes tonalidades.
             p.mb-0 También se debe tener en cuenta en las fibras, los efectos del contacto con bacterias y microorganismos y su incidencia en la durabilidad. Así mismo, el contacto con fluidos corporales como sangre, saliva o sudoración.
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/43.svg', alt='')

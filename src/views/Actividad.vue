@@ -25,7 +25,7 @@ export default {
         '<b>Objetivo:</b> evaluar la comprensión de los aprendices sobre los conceptos relacionados con el control de calidad en los procesos de confección, patronaje, trazo y corte, confección, terminados, insumos, materiales y textiles, así como los tipos de inspección, técnicas de muestreo, muestreo de aceptación por variables y atributos, y criterios para validar la calidad del producto según especificaciones técnicas.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
-      titulo_reprobado: 'VUELVA A INTENTARLO',
+      titulo_reprobado: '¡VUELVA A INTENTARLO!',
       preguntas: [
         {
           id: 1,

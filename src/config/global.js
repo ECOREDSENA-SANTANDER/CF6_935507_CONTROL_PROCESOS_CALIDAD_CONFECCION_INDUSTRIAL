@@ -130,17 +130,17 @@ export default {
     {
       termino: 'AQL',
       significado:
-        'siglas de las palabras en inglés <i>Acceptance Quality Level</i> (nivel de calidad aceptable). es el nivel de calidad aceptado por el cliente, el cual debe estar especificado en la ficha técnica, contrato u órdenes de compra.',
+        'siglas de las palabras en inglés <i>Acceptance Quality Level</i> (nivel de calidad aceptable). Es el nivel de calidad aceptado por el cliente, el cual debe estar especificado en la ficha técnica, contrato u órdenes de compra.',
     },
     {
       termino: 'Atributos',
       significado:
-        'son las características cualitativas. puede sumar varias características a la vez. ejemplo: el producto más económico.',
+        'son las características cualitativas. Puede sumar varias características a la vez. Ejemplo: el producto más económico.',
     },
     {
       termino: 'Desviación estándar',
       significado:
-        'medida de variabilidad que indica qué tan esparcidos se encuentran los datos con respecto a la media. es el mismo error estándar.',
+        'medida estadística que indica cuánto se dispersan los datos con respecto a la media.',
     },
     {
       termino: 'Estadística descriptiva',
@@ -168,7 +168,7 @@ export default {
         'conjunto de prendas con características comunes a las cuales se realizan inspecciones y auditorías de calidad.',
     },
     {
-      termino: 'Ltpd',
+      termino: 'LTPD',
       significado:
         'traducción de las siglas en inglés <i>Lot Tolerance Proportion Defective</i>. Proporción defectuosa tolerable en el lote; es el peor nivel de calidad del lote que el cliente puede aceptar.',
     },
@@ -241,7 +241,7 @@ export default {
     {
       termino: 'Variables',
       significado:
-        'son las características cuantitativas observables; por tanto, se pueden medir sus valores. ejemplo: ancho de dobladillo.',
+        'son las características cuantitativas observables; por tanto, se pueden medir sus valores. Ejemplo: ancho de dobladillo.',
     },
     {
       termino: 'Variación alta',
@@ -251,32 +251,45 @@ export default {
     {
       termino: 'Varianza',
       significado:
-        'medida de variabilidad de un conjunto de datos respecto a su media aritmética. es la desviación estándar elevada al cuadrado.',
+        'medida de variabilidad de un conjunto de datos respecto a su media aritmética. Es la desviación estándar elevada al cuadrado.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Evans, J., & Lindsay, W. (2015). Administración y Control de la calidad (9th ed.). Cengage.',
+        'Duque de Serna, F. (1990). Procedimientos para el control de la calidad. Servicio Nacional de Aprendizaje (SENA).',
     },
     {
       referencia:
-        'Gutiérrez, H. (2013). Control estadístico de la calidad y Seis Sigma (3rd ed.). McGraw-Hill Interamericana.',
+        'Evans, J. R., & Lindsay, W. M. (2014). Administración y control de la calidad (9.ª ed.). Cengage Learning.',
     },
     {
       referencia:
-        'Jaramillo, J. (1990). Control de calidad en la confección. Servicio Nacional de Aprendizaje (SENA).',
+        'Gutiérrez Pulido, H., & De la Vara Salazar, R. (2013). Control estadístico de la calidad y Seis Sigma (3.ª ed.). McGraw-Hill Interamericana.',
     },
     {
       referencia:
-        'Pola, Á. (2009). Aplicación de la estadística al control de calidad. Marcombo.',
-    },
-    {
-      referencia: 'SENA. (1990). Procedimientos para el control de la calidad.',
+        'Jaramillo Zapata, J. J. (1990). Control de calidad en la confección. Servicio Nacional de Aprendizaje (SENA).',
     },
     {
       referencia:
-        'Verdoy, P. Mahiques, J. Sagasta, S. & Sirviente, R. (2006). Manual de control estadístico de calidad: teoría y aplicaciones.',
+        'Pola Maseda, Á. (1993). Aplicación de la estadística al control de calidad. Marcombo.',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje (SENA). (s. f.). Formato de muestreo de calidad en extendido y corte[Formato].',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje (SENA). (s. f.). Listado de defectos de confección [Anexo].',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje (SENA). (s. f.). Pruebas de calidad en laboratorios para prenda terminada [Documento complementario].',
+    },
+    {
+      referencia:
+        'Verdoy, P. J., Mateu Mahiques, J., Sagasta Pellicer, S., & Sirvent Prades, R. (2006). Manual de control estadístico de calidad: teoría y aplicaciones. Publicacions de la Universitat Jaume I.',
     },
   ],
   creditos: [

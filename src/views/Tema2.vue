@@ -17,7 +17,7 @@
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
         h2 2.1 Métodos de inspección
       
-      p.mb-3 Las inspecciones se necesitan en las empresas para garantizar la calidad del producto y de los procesos. Validar la calidad de los insumos y materias primas permite controlar la calidad desde el inicio y ser proactivos ante las demoras que se puedan presentar en la producción, haciendo mejoras el manejo de los costos de calidad.
+      p.mb-3 Las inspecciones son necesarias en las empresas para garantizar la calidad de los productos y los procesos. Verificar la calidad de los insumos y las materias primas permite controlar la calidad desde el inicio, anticiparse a posibles demoras en la producción y optimizar la gestión de los costos de calidad.
       p.mb-5 Teniendo en cuenta la clasificación de la inspección, se derivan de ellos los métodos a utilizar; a continuación, se presentan los diferentes tipos de inspección.
       
       
@@ -37,10 +37,10 @@
                     p.mb-0 #[b 100 %:] se examinan todos los artículos de un lote.
                   li.d-flex
                     i.fas.fa-thread.icon-list-3
-                    p.mb-0 #[b Muestreo:] examinando la muestra establecida, se incide la conclusión en todo el lote o producción.
+                    p.mb-0 #[b Muestreo:] se examina una muestra representativa para obtener conclusiones sobre la totalidad del lote o de la producción.
                   li.d-flex
                     i.fas.fa-thread.icon-list-3
-                    p.mb-0 #[b Comprobación:] teniendo una muestra pequeña con el fin de comprobar las acciones de la inspección de un proceso, por ejemplo.
+                    p.mb-0 #[b Comprobación:] se utiliza una muestra pequeña para verificar la correcta aplicación de las acciones de inspección en un proceso.
                   li.d-flex.mb-0
                     i.fas.fa-thread.icon-list-3
                     p.mb-0 #[b Cero:] no se requiere porque el proceso está controlado.
@@ -80,7 +80,7 @@
                     p.mb-0 Comprobar comportamiento del artículo. 
                   li.d-flex
                     i.fas.fa-thread.icon-list-3
-                    p.mb-0 #[b Fiabilidad:] si va a durar el comportamiento con la inspección. 
+                    p.mb-0 #[b Fiabilidad:] verificar que el producto mantenga su desempeño durante el tiempo de uso previsto.
                   li.d-flex.mb-0
                     i.fas.fa-thread.icon-list-3
                     p.mb-0 #[b Analítica:] conforme el análisis de una característica es suficiente para decidir aceptar o rechazar y así establecer acciones de mejora. 
@@ -106,7 +106,7 @@
                 ul.lista-ul--color.mb-0
                   li.d-flex
                     i.fas.fa-thread.icon-list-3
-                    p.mb-0 #[b Puesto control fijo:] lugar establecido dentro del proceso de producción. 
+                    p.mb-0 #[b Puesto control fijo:] lugar establecido dentro del proceso de producción para realizar las inspecciones.
                   li.d-flex
                     i.fas.fa-thread.icon-list-3
                     p.mb-0 #[b Control volante:] no es fijo. 
@@ -125,18 +125,18 @@
                   li.d-flex
                     i.fas.fa-thread.icon-list-3
                     p.mb-0 #[b Permanente estadístico:] de acuerdo con un muestreo. 
-                  li.d-flex.mb-0
-                    i.fas.fa-thread.icon-list-3
-                    p.mb-0 #[b Arbitraria:] cuando el inspector realiza a su criterio. 
                   li.d-flex
                     i.fas.fa-thread.icon-list-3
-                    p.mb-0 #[b Eventual:] de vez en cuando. 
+                    p.mb-0 #[b Arbitraria:] se realiza según el criterio del inspector.
+                  li.d-flex
+                    i.fas.fa-thread.icon-list-3
+                    p.mb-0 #[b Eventual:] se realiza de manera ocasional. 
                   li.d-flex.mb-0
                     i.fas.fa-thread.icon-list-3
                     p.mb-0 #[b Al azar:] sin programación previa. 
             .row.justify-content-center.mb-0(titulo="Proveedores")
               .col-12
-                p.mb-0 Realizadas a los proveedores para certificar que realizan controles de calidad.
+                p.mb-0 Se realizan inspecciones a los proveedores para verificar la aplicación de controles de calidad en sus procesos.
 
       p.mb-5 Para realizar las inspecciones es relevante tener en cuenta la fase de planeación del control de calidad, como primera medida se realiza el alistamiento de los recursos, definir cronogramas, responsables, sistemas de medición, requisitos de calidad y plan de muestreo, y en la ejecución de inspecciones conviene tener un orden para revisar cada pieza o producto y poder validarlo una vez se realice el análisis mediante las herramientas estadísticas, sin producir congestiones o demoras en las entregas de los pedidos al cliente.
         
@@ -328,11 +328,10 @@
                 p.mb-0 Correspondencia de las medidas de prenda terminada con las especificadas en ficha técnica, según desarrollo de patronaje. 
               li.d-flex.mb-0
                 i.fas.fa-thread.icon-list-3
-                p.mb-0 Plantillas creadas cumplen para la utilización por ejemplo marcación de posición de bolsillos.
-
+                p.mb-0 Las plantillas creadas cumplen con la finalidad para la que fueron diseñadas, por ejemplo, la marcación de la posición de los bolsillos.
       
 
-      p.mb-5 Las inconformidades que se presenten en el desarrollo del lote piloto deben corregirse y realizar nuevas pruebas hasta que la inspección de las prendas cumpla los requisitos y sea aceptados para producir.
+      p.mb-5 Las inconformidades que se presenten en el desarrollo del lote piloto deben corregirse y realizar nuevas pruebas hasta que la inspección de las prendas cumpla los requisitos y estas sean aceptadas para su producción. 
 
       .titulo-tercer-nivel.mb-5
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
@@ -352,7 +351,7 @@
       figcaption.mb-5 Video. Inspección textiles
 
 
-      p.mb-5 En la siguiente tabla puede observar cómo se pueden realizar las inspecciones en algunos, insumos y telas.
+      p.mb-5 En la siguiente tabla puede observar cómo se pueden realizar las inspecciones en algunos insumos y telas.
       .titulo-sexto.color-secundario
         p.mb-0  #[b Tabla 5.] Características para inspeccionar en insumos y textiles
       .tabla-b.color-primario.mb-5
@@ -366,7 +365,7 @@
             tr
               td Hilos
               td Resistencia
-              td Tomando una porción de hilo del cono se somete a estiramiento hasta que se rompa, percibiendo la fuerza y la capacidad de estiramiento del hilo, con lo cual cumple con el requisito.
+              td Tomando una porción de hilo del cono, se somete a estiramiento hasta que se rompa, percibiendo la fuerza y la capacidad de estiramiento del hilo, con lo cual cumple con el requisito.
             tr
               td Hilos
               td Título
@@ -382,11 +381,11 @@
             tr
               td Botones
               td Color, tamaño y diseño
-              td Corresponda a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
+              td Deben corresponder a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
             tr
               td Cremallera
               td Color, tamaño y diseño
-              td Corresponda a la especificación de la ficha técnica, apariencia uniforme, subir y bajar el deslizador para comprobar su estado y el de los dientes.
+              td Deben corresponder a la especificación de la ficha técnica, apariencia uniforme, subir y bajar el deslizador para comprobar su estado y el de los dientes.
             tr
               td Elásticos
               td Elasticidad
@@ -394,15 +393,15 @@
             tr
               td Elásticos
               td Color y tamaño
-              td Corresponda a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
+              td Deben corresponder a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
             tr
               td Sesgos, cintas, encajes
               td Color, tamaño y diseño
-              td Corresponda a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
+              td Deben corresponder a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
             tr
               td Gafetes, tensores
               td Color, tamaño y diseño
-              td Corresponda a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
+              td Deben corresponder a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
             tr
               td Telas
               td Resistencia
@@ -422,11 +421,11 @@
             tr
               td Telas
               td Diseño
-              td Corresponda a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
+              td Deben corresponder a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
             tr
               td Entretelas
               td Capacidad de adherencia
-              td Teniendo en cuenta su función se valida que no se levante durante el proceso, y queda bien adherido a la pieza fusionada.
+              td Teniendo en cuenta su función, se valida que no se levante durante el proceso, y queda bien adherido a la pieza fusionada.
 
       .titulo-tercer-nivel.mb-5
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
@@ -445,7 +444,7 @@
             .col-6
                 img(src='@/assets/curso/temas/t2/10.svg')          
           h2.text-center Doblado
-          p.mb-0  Este proceso no debe afectar la apariencia de otras partes de la prenda como el cuello y pueda dañar el proceso anterior conforme el método acordado.
+          p.mb-0  El doblado debe realizarse conforme al método establecido, sin afectar la apariencia de otras partes de la prenda, como el cuello, ni alterar el resultado del proceso anterior.
           
         
         .col-md-6.col-lg-4.tarjeta.color-acento-contenido.p-5
@@ -477,7 +476,7 @@
                 p.mb-0 #[b Color:] correspondencia respecto al proceso solicitado.
               li.d-flex.mb-0
                 i.fas.fa-thread.icon-list-3
-                p.mb-0 En el caso de abrasiones y rotos, se confronta si los tamaños, la ubicación y el método corresponde al solicitado.
+                p.mb-0 En el caso de las abrasiones y roturas, se verifica que el tamaño, la ubicación y el método correspondan a lo solicitado.
               li.d-flex.mb-0
                 i.fas.fa-thread.icon-list-3
                 p.mb-0 Decoloraciones en las ubicaciones y tamaños especificados.
@@ -584,7 +583,7 @@
               img(src='@/assets/curso/temas/t2/22.svg', alt='')
             .col-sm-12.col-lg-7
               .bg-color-2.p-4
-                p.mb-0.text-white Este método utiliza formas de selección aleatoria, basado en la característica que todos los productos pueden hacer parte de una muestra, asegurando la representatividad de esta.
+                p.mb-0.text-white Este método utiliza procedimientos de selección aleatoria, en los cuales todos los productos del lote tienen una probabilidad conocida de formar parte de la muestra, lo que favorece su representatividad.
                 p.mb-2.text-white Este tipo de muestreo se clasifica en:
                 ul.lista-ul--color
                   li.d-flex
@@ -726,7 +725,7 @@
 
       .row.justify-content-start.mb-5
         .col-sm-12.col-lg-8
-          p.mb-0 #[b Ejemplo:] se reciben 10000 conos de hilo blanco; el plan de muestreo especifica que el AQL es de 1,5 % y el RQL es 5 %, el resultado del cálculo es que se deben inspeccionar 209 conos y se rechazará el lote se encuentran 6 defectuosos. Al realizar la inspección se encuentran 7 unidades defectuosas, por lo tanto, el lote se rechaza.
+          p.mb-0 #[b Ejemplo:] se reciben 10.000 conos de hilo blanco. El plan de muestreo establece un AQL de 1,5 % y un RQL de 5 %. De acuerdo con el cálculo, se deben inspeccionar 209 conos y rechazar el lote si se encuentran 6 o más conos defectuosos. Durante la inspección se identifican 7 conos defectuosos; por lo tanto, el lote se rechaza.
       
       p.mb-3 Se pueden generar formatos para realizar muestreos como el siguiente en el proceso de corte:
       .titulo-sexto.color-primario(data-aos="fade-right")
