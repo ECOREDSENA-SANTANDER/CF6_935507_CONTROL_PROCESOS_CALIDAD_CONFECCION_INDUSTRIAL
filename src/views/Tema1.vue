@@ -326,7 +326,7 @@
                 p.mb-0 #[b UNE:] Asociación Española de Normalización. 
               li.d-flex.mb-0
                 i.fas.fa-thread.icon-list-3
-                p.mb-0 #[b AS/NZS:] ormas conjuntas de Australia y Nueva Zelanda, elaboradas por los organismos #[i Standards Australia] y #[i Standards New Zealand.]
+                p.mb-0 #[b AS/NZS:] normas conjuntas de Australia y Nueva Zelanda, elaboradas por los organismos #[i Standards Australia] y #[i Standards New Zealand].
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/temas/t1/11.svg', alt='')
 
@@ -507,7 +507,7 @@
 
 
 
-      p.mb-5 La siguiente tabla muestra pruebas especializadas que se realizan, para evaluar características de algunos insumos, así como la norma de calidad:
+      p.mb-5 La siguiente tabla presenta pruebas especializadas que se realizan, para evaluar características de algunos insumos, así como la norma de calidad:
       .titulo-sexto.color-secundario
         p.mb-0  #[b Tabla 1.] Pruebas de calidad en laboratorios para insumos: cremallera
       .tabla-b.color-primario.mb-5

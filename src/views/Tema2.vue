@@ -351,7 +351,7 @@
       figcaption.mb-5 Video. Inspección textiles
 
 
-      p.mb-5 En la siguiente tabla puede observar cómo se pueden realizar las inspecciones en algunos insumos y telas.
+      p.mb-5 La siguiente tabla presenta los procedimientos de inspección aplicables a algunos insumos y textiles.
       .titulo-sexto.color-secundario
         p.mb-0  #[b Tabla 5.] Características para inspeccionar en insumos y textiles
       .tabla-b.color-primario.mb-5
