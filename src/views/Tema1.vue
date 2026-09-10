@@ -636,7 +636,7 @@
               td NTC 1479-2 / ISO 105-B02
             tr
               td Determinación de torsiones.
-              td NTC 443–NTC 752
+              td NTC 443 / NTC 752
             tr
               td Formaldehído libre.
               td ISO 14184-1:2011

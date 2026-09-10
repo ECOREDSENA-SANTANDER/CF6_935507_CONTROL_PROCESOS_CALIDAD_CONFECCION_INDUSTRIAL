@@ -106,7 +106,7 @@
                 ul.lista-ul--color.mb-0
                   li.d-flex
                     i.fas.fa-thread.icon-list-3
-                    p.mb-0 #[b Puesto control fijo:] lugar establecido dentro del proceso de producción para realizar las inspecciones.
+                    p.mb-0 #[b Puesto de control fijo:] lugar establecido dentro del proceso de producción para realizar las inspecciones.
                   li.d-flex
                     i.fas.fa-thread.icon-list-3
                     p.mb-0 #[b Control volante:] no es fijo. 
@@ -421,7 +421,7 @@
             tr
               td Telas
               td Diseño
-              td Deben corresponder a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
+              td Deben corresponder a las especificaciones de la ficha técnica y presentar apariencia uniforme, orillos parejos y ausencia de dobleces.
             tr
               td Entretelas
               td Capacidad de adherencia
