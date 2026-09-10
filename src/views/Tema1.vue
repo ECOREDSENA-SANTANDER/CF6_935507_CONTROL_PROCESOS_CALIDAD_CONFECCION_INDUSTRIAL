@@ -23,7 +23,7 @@
       
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/2.png', alt='')
+          img(src='@/assets/curso/temas/t1/2.png')
         .col-sm-12.col-lg-8
           p.mb-3 El control de los procesos consiste en identificar cuáles son las variaciones que pueden presentarse en las características del producto, determinar sus causas y tomar decisiones para mantener la variabilidad dentro de límites aceptables y eliminar los errores. Para ello, se aplican técnicas que permiten estandarizar el proceso e implementar mejoras.
 
@@ -34,31 +34,31 @@
                 p.mb-0.text-white Una vez se desarrolla la prenda la validación de los patrones debe estar contenida en un documento de revisión de patronaje, lo que permite la trazabilidad del proceso.
                 p.mb-0.text-white Los productos presentan variables y atributos. Las variables corresponden a características cuantitativas, mientras que los atributos corresponden a características cualitativas. Ambos, en conjunto, constituyen los requisitos de calidad de una prenda.
             .col-sm-12.col-lg-5.d-none.d-lg-block.bg-color-5
-              img(src='@/assets/curso/temas/t1/1.svg', alt='')
+              img(src='@/assets/curso/temas/t1/1.svg')
       p.mb-5 Los requisitos además están clasificados de la siguiente manera:
       SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
         .tarjeta.bg-color-6.p-4
           .row.justify-content-center.mb-4
             .col-5
-              img(src='@/assets/curso/temas/t1/3.svg', alt='')
+              img(src='@/assets/curso/temas/t1/3.svg')
           h4.text-center Explícitos
           p.mb-0 Declarados por el cliente, según sus expectativas.
         .tarjeta.bg-color-6.p-4
           .row.justify-content-center.mb-4
             .col-5
-              img(src='@/assets/curso/temas/t1/4.svg', alt='')
+              img(src='@/assets/curso/temas/t1/4.svg')
           h4.text-center Implícitos
           p.mb-0 Necesarios para que cumplan la función para la que son creados.
         .tarjeta.bg-color-6.p-4
           .row.justify-content-center.mb-4
             .col-5
-              img(src='@/assets/curso/temas/t1/5.svg', alt='')
+              img(src='@/assets/curso/temas/t1/5.svg')
           h4.text-center Legales o reglamentarios
           p.mb-0 De acuerdo con la normatividad vigente.
         .tarjeta.bg-color-6.p-4
           .row.justify-content-center.mb-4
             .col-5
-              img(src='@/assets/curso/temas/t1/6.svg', alt='')
+              img(src='@/assets/curso/temas/t1/6.svg')
           h4.text-center Empresariales
           p.mb-0 Según las políticas de producción de la empresa.
       
@@ -66,7 +66,7 @@
       p.mb-5 Los requisitos que se deben considerar en el proceso de patronaje son:
       .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/7.png', alt='')
+          img(src='@/assets/curso/temas/t1/7.png')
         .col-sm-12.col-lg-7
           LineaTiempoD.color-acento-contenido
             .row(numero="1" titulo="Medidas del patrón con y sin costuras")
@@ -99,11 +99,11 @@
       
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/8.png', alt='')
+          img(src='@/assets/curso/temas/t1/8.png')
         .col-sm-12.col-lg-7
           .row.justify-content-center.mb-4
             .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t1/9.svg', alt='')
+              img(src='@/assets/curso/temas/t1/9.svg')
             .col-sm-12.col-lg-10
                 p.mb-3 En cada una de las actividades que conforman el área de trazo y corte se establecen controles para revisar y garantizar la calidad del proceso.
                 p.mb-0 Las personas encargadas de cada actividad del área deben mantener una comunicación abierta para coordinar el proceso, debido a que cualquier error puede replicarse en las etapas posteriores de la producción. Por esta razón, es importante detectarlo y corregirlo oportunamente.
@@ -119,9 +119,9 @@
       
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/10.png', alt='')
+          img(src='@/assets/curso/temas/t1/10.png')
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/11.svg', alt='')
+          img(src='@/assets/curso/temas/t1/11.svg')
         .col-sm-12.col-lg-5
           .bg-color-2.pt-3
             .bg-color-5.mt-2.wcus-5.br-5.mb-3
@@ -155,7 +155,7 @@
               .col-12
                 p.mb-0 Observar si existen defectos en la tela, marcar en lo posible la mayoría de piques y marras, entre otras observadas. Cuidar la combinación de rollos y de colores para evitar contaminación entre los colores por los residuos de las fibras en el corte del tejido.
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/12.svg', alt='')
+          img(src='@/assets/curso/temas/t1/12.svg')
       
 
 
@@ -186,7 +186,7 @@
                   span.text-sistema.fw-bold 4
                 p.mb-0 #[b Corte de piezas de forro y entretela:] revisar que el material y las piezas se corten conforme a la ficha técnica y a la programación de la producción.
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/13.svg', alt='')
+          img(src='@/assets/curso/temas/t1/13.svg')
 
 
       .titulo-tercer-nivel.mb-5
@@ -215,9 +215,9 @@
 
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/10.png', alt='')
+          img(src='@/assets/curso/temas/t1/10.png')
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/11.svg', alt='')
+          img(src='@/assets/curso/temas/t1/11.svg')
         .col-sm-12.col-lg-5
           .bg-color-2.p-5
             ul.lista-ul--color.p-2
@@ -243,13 +243,13 @@
         .col-lg-9.position-relative
           .avatar
             figure
-              img(src="@/assets/curso/temas/t1/19.svg", alt="alt").img250
+              img(src="@/assets/curso/temas/t1/19.svg").img250
           
           .crd.crd--avatarHorizontal.crd--first.py-4
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t1/16.svg", alt="alt").img100
+                  img(src="@/assets/curso/temas/t1/16.svg").img100
               .col
                 h5 Calidad de la información
                 p Es importante tener en cuenta las variables, la ponderación de estas refleja la calidad de la información, la cual le permitirá obtener información concreta, clara y medible. Es necesario resaltar las características determinantes desde enfoques cualitativos y cuantitativos del dato obtenido.
@@ -258,7 +258,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t1/17.svg", alt="alt").img100
+                  img(src="@/assets/curso/temas/t1/17.svg").img100
               .col
                 h5 Aplicación de técnicas
                 p Desarrolle técnicas que le permitan tener un panorama completo de la información que se esté analizando, integrando las variables obtenidas en la medición y contrastando detalladamente los datos.
@@ -267,7 +267,7 @@
             .row.align-items-center
               .col-auto
                 figure
-                  img(src="@/assets/curso/temas/t1/18.svg", alt="alt").img100
+                  img(src="@/assets/curso/temas/t1/18.svg").img100
               .col
                 h5.text-white Comunicación correcta de los resultados
                 p.mb-0.text-white En los análisis de resultados, el determinante es saber mostrar la información, tenga en cuenta la objetividad, la claridad, la transparencia y la organización de la información.
@@ -295,7 +295,7 @@
 
       .row.justify-content-center.mb-5.bg-color-9.br-4.p-5.align-items-center
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/21.svg', alt='')
+          img(src='@/assets/curso/temas/t1/21.svg')
         .col-sm-12.col-lg-6
           h3.mb-5.br-6 Pruebas de calidad en laboratorios para prenda terminada
           p.mb-5 El siguiente documento  constituye una herramienta de consulta que vincula los métodos de ensayo con sus respectivas normas. Esta información se encuentra disponible mediante el botón de descarga.
@@ -328,7 +328,7 @@
                 i.fas.fa-thread.icon-list-3
                 p.mb-0 #[b AS/NZS:] normas conjuntas de Australia y Nueva Zelanda, elaboradas por los organismos #[i Standards Australia] y #[i Standards New Zealand].
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/11.svg', alt='')
+          img(src='@/assets/curso/temas/t1/11.svg')
 
 
       p.mb-5 Los requisitos de calidad que se deben cumplir en la confección y son objetos de control son:
@@ -337,48 +337,48 @@
         .p-full-width
           .row.justify-content-center.align-items-center
             .col-lg-3.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t1/28.png', alt='')
+              img(src='@/assets/curso/temas/t1/28.png')
             .col-lg-9
               SlyderF.circl-arrow.mb-4(columnas="col-md-6 col-lg-6 col-xl-4")
                 .tarjeta.bg-color-4.p-4.hcard-1
                   .row.justify-content-center.mb-3
                     .col-6
-                      img(src='@/assets/curso/temas/t1/22.svg' alt='')
+                      img(src='@/assets/curso/temas/t1/22.svg')
                   .bg-color-1.px-3.py-1.mb-3
                     h4.mb-0.text-center.text-white Costura
                   p.mb-0 Simetría, sin recogidos ni prenses, costuras rectas, respetar márgenes de costura, costura uniforme, marquilla de acuerdo con el cuidado de la prenda, remates uniformes, cases de costuras.
                 .tarjeta.bg-color-4.p-4.hcard-1
                   .row.justify-content-center.mb-3
                     .col-6
-                      img(src='@/assets/curso/temas/t1/23.svg' alt='')
+                      img(src='@/assets/curso/temas/t1/23.svg')
                   .bg-color-1.px-3.py-1.mb-3
                     h4.mb-0.text-center.text-white Tela
                   p.mb-0 Con colores uniformes, tela sin arrugas, sin imperfecciones.
                 .tarjeta.bg-color-4.p-4.hcard-1
                   .row.justify-content-center.mb-3
                     .col-6
-                      img(src='@/assets/curso/temas/t1/24.svg' alt='')
+                      img(src='@/assets/curso/temas/t1/24.svg')
                   .bg-color-1.px-3.py-1.mb-3
                     h4.mb-0.text-center.text-white Ambiente del taller
                   p.mb-0 Orden y limpieza en piso, puestos de trabajo.
                 .tarjeta.bg-color-4.p-4.hcard-1
                   .row.justify-content-center.mb-3
                     .col-6
-                      img(src='@/assets/curso/temas/t1/25.svg' alt='')
+                      img(src='@/assets/curso/temas/t1/25.svg')
                   .bg-color-1.px-3.py-1.mb-3
                     h4.mb-0.text-center.text-white Ajuste de maquinaria
                   p.mb-0 Mantenimiento de la máquina y uso de aditamentos, pies, guías y fólderes, agujas, altura de dientes, presión del pie prénsatela, enhebrado, devanado de hilo, tensión del hilo.
                 .tarjeta.bg-color-4.p-4.hcard-1
                   .row.justify-content-center.mb-3
                     .col-6
-                      img(src='@/assets/curso/temas/t1/26.svg' alt='')
+                      img(src='@/assets/curso/temas/t1/26.svg')
                   .bg-color-1.px-3.py-1.mb-3
                     h4.mb-0.text-center.text-white Operario
                   p.mb-0 Manipulación del material, métodos utilizados en la operación.
                 .tarjeta.bg-color-4.p-4.hcard-1
                   .row.justify-content-center.mb-3
                     .col-6
-                      img(src='@/assets/curso/temas/t1/27.svg' alt='')
+                      img(src='@/assets/curso/temas/t1/27.svg')
                   .bg-color-1.px-3.py-1.mb-3
                     h4.mb-0.text-center.text-white Instrucciones de cuidado y terminados
                   p.mb-0 Según la norma, tener en cuenta los símbolos y la composición del material, incluidas en la etiqueta adherida en la prenda.
@@ -390,7 +390,7 @@
         .p-full-width-2
           .row.justify-content-center.align-items-center
             .col-lg-1.d-none.d-lg-block
-              img(src='@/assets/curso/temas/bg/6.svg', alt='')
+              img(src='@/assets/curso/temas/bg/6.svg')
             .col-lg-9.mb-cus
                h2.mb-3.text-white Listado de defectos de confección
                p.mb-0.text-white Puede descargar este documento para conocer algunos defectos de confección.
@@ -409,11 +409,11 @@
       
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/29.png', alt='')
+          img(src='@/assets/curso/temas/t1/29.png')
         .col-sm-12.col-lg-7
           .row.justify-content-center.mb-4
             .col-sm-12.col-lg-2.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t1/30.svg', alt='')
+              img(src='@/assets/curso/temas/t1/30.svg')
             .col-sm-12.col-lg-10
                 p.mb-3 En los terminados se incluyen procesos de planchado, empaque, embalaje y procesos de acabados como lavandería, estampación y bordado.
                 p.mb-0 Puede ser que los procesos de acabados se desarrollen de manera externa a la empresa, es decir, que se subcontratan y por lo tanto, aumenta la importancia de establecer los puntos de control una vez ingresen a la planta, para validar las prendas o piezas una vez se realicen los procesos contratados.
@@ -430,43 +430,43 @@
                 h4.mb-3 Planchado
                 p.mb-0 Este debe ser uniforme, con los quiebres según lo especificado, si se debe doblar que no genere arrugas, control en la temperatura para que no queme la pieza, limpieza, además del control en la presión y la humedad.
               .col-sm-12.col-lg-5.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/31.png', alt='')
+                img(src='@/assets/curso/temas/t1/31.png')
             .row.justify-content-center.mb-0.pt-4
               .col-sm-12.col-lg-5
                 h4.mb-3 Empaque
                 p.mb-0 Según lo establecido por la empresa, utilizar los recursos como el gancho, bolsa y etiqueta correspondiente.
               .col-sm-12.col-lg-5.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/32.png', alt='')
+                img(src='@/assets/curso/temas/t1/32.png')
             .row.justify-content-center.mb-0.pt-4
               .col-sm-12.col-lg-5
                 h4.mb-3 Embalaje
                 p.mb-0 Teniendo en cuenta el pedido del cliente, utilizar materiales como cajas, cinta de amarre o zuncho, cinta adhesiva, tensor para la cinta de amarre. Rotular para identificar el contenido y organizar el contenido.
               .col-sm-12.col-lg-5.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/33.png', alt='')
+                img(src='@/assets/curso/temas/t1/33.png')
             .row.justify-content-center.mb-0.pt-4
               .col-sm-12.col-lg-5
                 h4.mb-3 Estampados
                 p.mb-0 Observar que exista uniformidad del dibujo y colores, posición y ubicación.
               .col-sm-12.col-lg-5.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/34.png', alt='')
+                img(src='@/assets/curso/temas/t1/34.png')
             .row.justify-content-center.mb-0.pt-4
               .col-sm-12.col-lg-5
                 h4.mb-3 Bordados
                 p.mb-0 Revisar que la tensión del hilo, colores y letras correspondan al diseño, posición y ubicación.
               .col-sm-12.col-lg-5.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/35.png', alt='')
+                img(src='@/assets/curso/temas/t1/35.png')
             .row.justify-content-center.mb-0.pt-4
               .col-sm-12.col-lg-5
                 h4.mb-3 Rebordados
                 p.mb-0 Verificar la alineación y ubicación en la colocación de pedrería u otros, el diseño debe corresponder al rebordado realizado.
               .col-sm-12.col-lg-5.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/36.png', alt='')
+                img(src='@/assets/curso/temas/t1/36.png')
             .row.justify-content-center.mb-0.pt-4
               .col-sm-12.col-lg-5
                 h4.mb-3 Lavandería
                 p.mb-0 Comprobar la uniformidad de colores, que el proceso corresponda al solicitado, sin dañar las costuras o el tejido de tela.
               .col-sm-12.col-lg-5.d-none.d-lg-block
-                img(src='@/assets/curso/temas/t1/37.png', alt='')
+                img(src='@/assets/curso/temas/t1/37.png')
 
 
 
@@ -483,7 +483,7 @@
           .bg-color-3.p-4
             p.mb-0 Entre las entradas del proceso de producción se encuentran los insumos y las materias primas. Su control de calidad responde al principio de hacer las cosas bien desde el comienzo y contribuye a asegurar la continuidad del proceso. Asimismo, al finalizar la producción, deben verificarse los materiales requeridos para la entrega del producto al cliente.
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/40.svg', alt='')
+          img(src='@/assets/curso/temas/t1/40.svg')
 
 
       .titulo-tercer-nivel.mb-5
@@ -492,7 +492,7 @@
 
       .row.justify-content-center.mb-5.align-items-end(data-aos='fade-right')
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/38.png', alt='')
+          img(src='@/assets/curso/temas/t1/38.png')
         .col-sm-12.col-lg-8
           p.mb-3 Los requisitos necesarios para cumplir con las solicitudes de insumos son la disponibilidad, en cuanto a tiempos de obtención para su uso y las características propias de los mismos como funcionalidad, composición, tamaño, peso, color y uniformidad.
           p.mb-5 En el caso de los hilos se analizan propiedades como elasticidad, flexibilidad, durabilidad, resistencia a rotura, tenacidad, solidez al color, uniformidad de tono y grosor.
@@ -503,7 +503,7 @@
 
                 p.mb-0.text-white Es importante controlar los desperdicios generados durante el uso de los insumos, ya que estos inciden en el costo del producto. Por esta razón, también deben controlarse los consumos en la planta de producción.
             .col-sm-12.col-lg-5.d-none.d-lg-block.bg-color-5
-              img(src='@/assets/curso/temas/t1/39.svg', alt='')  
+              img(src='@/assets/curso/temas/t1/39.svg')  
 
 
 
@@ -650,7 +650,7 @@
         .py-3.py-md-4(titulo="Control de calidad de materiales")  
           .row.justify-content-center.mb-5.align-items-start
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t1/41.png', alt='')
+              img(src='@/assets/curso/temas/t1/41.png')
             .col-sm-12.col-lg-6
               p.mb-4.mt-3 Los materiales utilizados en la producción también requieren control de calidad. En el caso de la papelería, se deben revisar sus especificaciones técnicas para verificar que correspondan con su uso en el proceso productivo.
 
@@ -658,7 +658,7 @@
         .py-3.py-md-4(titulo="Control de calidad en textiles")  
           .row.justify-content-center.mb-5.align-items-start
             .col-sm-12.col-lg-5.d-none.d-lg-block
-              img(src='@/assets/curso/temas/t1/42.png', alt='')
+              img(src='@/assets/curso/temas/t1/42.png')
             .col-sm-12.col-lg-6
               p.mb-4.mt-3 En el caso de los textiles, teniendo en cuenta las propiedades asociadas a su composición se realizan las inspecciones en las que pueden ser observables con detenimiento, pero es necesario realizar pruebas de laboratorio que garanticen la calidad para su utilización.
               p.mb-0 Se tienen en cuenta algunas de ellas como las que se realizan en las pruebas de laboratorio, en el cuadro se observa el tipo de ensayo y la norma que lo regula.
@@ -721,7 +721,7 @@
             p.mb-3 Es importante evaluar el comportamiento del textil frente al agua y a las altas temperaturas, especialmente cuando la pieza requiera procesos de fusionado o planchado. Mediante pruebas de lavado se pueden verificar la recuperación dimensional, la formación de arrugas y la solidez del color, con el fin de evitar la migración del color cuando se combinen piezas o insumos de diferentes tonalidades.
             p.mb-0 También se debe tener en cuenta en las fibras, los efectos del contacto con bacterias y microorganismos y su incidencia en la durabilidad. Así mismo, el contacto con fluidos corporales como sangre, saliva o sudoración.
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t1/43.svg', alt='')
+          img(src='@/assets/curso/temas/t1/43.svg')
 
 
 

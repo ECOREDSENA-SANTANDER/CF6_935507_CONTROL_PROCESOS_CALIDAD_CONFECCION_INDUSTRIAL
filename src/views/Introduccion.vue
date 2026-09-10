@@ -11,7 +11,7 @@
     
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-4.d-none.d-lg-block
-        img(src='@/assets/curso/temas/intro/1.png', alt='')
+        img(src='@/assets/curso/temas/intro/1.png')
       .col-sm-12.col-lg-8
         p.mb-3 Una vez que se ha avanzado en el proceso productivo es necesario ejecutar el proceso de control de calidad en los procesos, insumos, materia prima y materiales; para ello es necesario que el equipo ejecutor de la producción identifique y defina los requisitos de calidad del producto y de cada uno de los procesos que se ejecutan según la orden de producción.
         p.mb-4 Así mismo, los supervisores de proceso deben conocer los diferentes tipos de inspecciones para establecer cuáles de ellas son las óptimas a realizar en cada lote y con qué metodología realizarlas, de forma que se establezca un adecuado plan de muestreo a desarrollar, el cual permite detectar defectos o inconformidades en un lote de producción y así corregirlos antes de que el producto sea entregado al cliente.

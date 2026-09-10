@@ -7,7 +7,7 @@
           span 2
         h1 Inspección y muestreos
       
-      img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t2/1.png', alt='')
+      img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t2/1.png')
       p.mb-0 De acuerdo con Jaramillo (1990) “la inspección es la acción de comparar un material, proceso o producto contra las especificaciones dadas previamente con el propósito de determinar el grado en que estos cumplen las especificaciones técnicas establecidas. De acuerdo con el porcentaje de artículos inspeccionados, la inspección puede ser (i) al 100 %, que comprende el examen de cada artículo que haya en el lote, y (ii) por muestreo, que comprende la inspección de una pequeña parte de los artículos que hay en el lote o que se producen en el proceso. Cada empresa con base en sus políticas de calidad define los tamaños muestrales”.
       
       
@@ -94,11 +94,11 @@
                     i.fas.fa-thread.icon-list-3
                     p.mb-0 #[b Atributos:] sin cuantificación, es totalmente subjetiva a criterio del inspector. 
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/2.svg', alt='')
+          img(src='@/assets/curso/temas/t2/2.svg')
 
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-4.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/3.svg', alt='')
+          img(src='@/assets/curso/temas/t2/3.svg')
         .col-sm-12.col-lg-8
           AcordionA(tipo="b" clase-tarjeta="tarjeta bg-brown")
             .row.justify-content-center.mb-0(titulo="Lugar")
@@ -176,7 +176,7 @@
                 i.fas.fa-thread.icon-list-3
                 p.mb-0 Remates.
         .col-sm-12.col-lg-4.d-none.d-lg-block.bg-color-6.p-4
-          img(src='@/assets/curso/temas/t2/4.svg', alt='')
+          img(src='@/assets/curso/temas/t2/4.svg')
         .col-sm-12.col-lg-4.bg-color-9.p-4
             ul.lista-ul--color.mb-0
               li.d-flex
@@ -237,11 +237,11 @@
                 i.fas.fa-thread.icon-list-3
                 p.mb-0 Costuras rectas. 
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/5.png', alt='')
+          img(src='@/assets/curso/temas/t2/5.png')
 
       .row.justify-content-center.mb-5.align-items-end
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/6.png', alt='')
+          img(src='@/assets/curso/temas/t2/6.png')
         .col-sm-12.col-lg-7
           .bg-color-9.p-3
             ul.lista-ul--color.mb-0
@@ -300,11 +300,11 @@
                 i.fas.fa-thread.icon-list-3
                 p.mb-0 Remates de costuras.
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/7.png', alt='')
+          img(src='@/assets/curso/temas/t2/7.png')
 
       .row.justify-content-center.mb-5.align-items-end
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/8.png', alt='')
+          img(src='@/assets/curso/temas/t2/8.png')
         .col-sm-12.col-lg-7
           .bg-color-9.p-3
             ul.lista-ul--color.mb-0
@@ -467,7 +467,7 @@
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-4.d-none.d-lg-block
           .bg-color-6.p-3
-            img(src='@/assets/curso/temas/t2/13.svg', alt='')
+            img(src='@/assets/curso/temas/t2/13.svg')
         .col-sm-12.col-lg-4
           .bg-color-9.p-3
             ul.lista-ul--color.mb-0
@@ -485,7 +485,7 @@
                 p.mb-0 Se revisa si se afectaron las costuras, es decir si se rompieron.
         .col-sm-12.col-lg-4.d-none.d-lg-block
           .bg-color-6.p-3
-            img(src='@/assets/curso/temas/t2/12.svg', alt='')
+            img(src='@/assets/curso/temas/t2/12.svg')
 
       .titulo-tercer-nivel.mb-5
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
@@ -496,14 +496,14 @@
       .row.d-flex.justify-content-center.mb-5.align-items-center
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/14.svg' alt='')
+            img(src='@/assets/curso/temas/t2/14.svg')
             .tarjeta.bg-color-4.hcard-2.mt-3
               .p-4
                 h4.text-center Colores
                 p.mb-0 Precisos, que no se noten corridos si no es parte del diseño.
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/15.svg' alt='')
+            img(src='@/assets/curso/temas/t2/15.svg')
             .tarjeta.bg-color-4.hcard-2.mt-3
               .p-4
                 h4.text-center Diseño
@@ -511,14 +511,14 @@
       .row.d-flex.justify-content-center.mb-5.align-items-center
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/16.svg' alt='')
+            img(src='@/assets/curso/temas/t2/16.svg')
             .tarjeta.bg-color-4.hcard-2.mt-3
               .p-4
                 h4.text-center Tamaño
                 p.mb-0 Las medidas deben estar conforme el requerimiento.
         .col-sm-12.col-md-6.col-lg-4.mb-cus
           .tarjeta-avatar
-            img(src='@/assets/curso/temas/t2/17.svg' alt='')
+            img(src='@/assets/curso/temas/t2/17.svg')
             .tarjeta.bg-color-4.hcard-2.mt-3
               .p-4
                 h4.text-center Posición y ubicación
@@ -530,10 +530,10 @@
       p.mb-5 Los aspectos para revisar en el bordado son:
        .row.justify-content-center.mb-5(data-aos='fade-right')
         .col-sm-12.col-lg-5.d-none.d-lg-block.mx-0.px-0
-          img(src='@/assets/curso/temas/t2/18.png', alt='')
+          img(src='@/assets/curso/temas/t2/18.png')
         .col-sm-12.col-lg-7.mx-0.px-0.bg-color-5
           .p-4
-            img.mb-3.wcus-2.d-none.d-lg-block(src='@/assets/curso/temas/t2/19.svg', alt='')
+            img.mb-3.wcus-2.d-none.d-lg-block(src='@/assets/curso/temas/t2/19.svg')
             ul.lista-ul--color
                 li.d-flex.mb-0
                   i.fas.fa-thread.icon-list
@@ -568,7 +568,7 @@
           .bg-color-6.p-4
             p.mb-0 El muestreo a elegir ya sea en un proceso, o en un producto terminado o insumo puede ser diferente, es necesario verificar la capacidad de análisis del auditor para determinar la conveniencia de la técnica a utilizar además de establecer mezclas entre los tipos de muestreo.
         .col-sm-12.col-lg-5.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/20.png', alt='')  
+          img(src='@/assets/curso/temas/t2/20.png')  
       
       .titulo-tercer-nivel.mb-5
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/1.svg')
@@ -576,11 +576,11 @@
 
       .row.justify-content-center.mb-5
         .col-sm-12.col-lg-3.d-none.d-lg-block
-          img(src='@/assets/curso/temas/t2/21.png', alt='')
+          img(src='@/assets/curso/temas/t2/21.png')
         .col-sm-12.col-lg-9
           .row.justify-content-center.mb-3
             .col-sm-12.col-lg-5.d-none.d-lg-block.bg-color-9
-              img(src='@/assets/curso/temas/t2/22.svg', alt='')
+              img(src='@/assets/curso/temas/t2/22.svg')
             .col-sm-12.col-lg-7
               .bg-color-2.p-4
                 p.mb-0.text-white Este método utiliza procedimientos de selección aleatoria, en los cuales todos los productos del lote tienen una probabilidad conocida de formar parte de la muestra, lo que favorece su representatividad.
@@ -648,7 +648,7 @@
 
       p.mb-5 Para validar un lote es necesario conocer el resultado de las inspecciones de dos muestras de este, cuando se presenten resultados dudosos en la primera muestra, por lo tanto, se pueden combinar los resultados de ambas muestras para determinar si se acepta o rechaza el lote.
 
-      img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t2/26.png', alt='')
+      img.mb-5.d-none.d-lg-block(src='@/assets/curso/temas/t2/26.png')
       .cajon.color-acento-contenido.p-5.mb-5
           h4 Ejemplo
           p.mb-0 Se tiene un lote de 100 unidades (N), de acuerdo con los criterios de inspección de la empresa, se toman muestras de 20 unidades (n) y si se encuentran 2 unidades defectuosas (RQL) el lote se rechaza. Al realizar inspección se encuentra 1 unidad defectuosa, por lo tanto, se procede a inspeccionar una segunda muestra donde se encuentran 2 unidades defectuosas, por tanto, el lote se rechaza.
@@ -737,7 +737,7 @@
         .p-full-width-2
           .row.justify-content-center.align-items-center
             .col-lg-1.d-none.d-lg-block
-              img(src='@/assets/curso/temas/bg/6.svg', alt='')
+              img(src='@/assets/curso/temas/bg/6.svg')
             .col-lg-9.mb-cus
                h2.mb-3.text-white Formato muestreos de calidad en extendido y corte
                p.mb-0.text-white Puede descargar este formato en PDF para su uso.
