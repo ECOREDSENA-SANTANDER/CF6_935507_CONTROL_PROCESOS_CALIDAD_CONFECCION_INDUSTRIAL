@@ -381,11 +381,11 @@
             tr
               td Botones
               td Color, tamaño y diseño
-              td Deben corresponder a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
+              td Deben corresponder a las especificaciones de la ficha técnica y presentar apariencia uniforme, bordes parejos y ausencia de deformaciones.
             tr
               td Cremallera
               td Color, tamaño y diseño
-              td Deben corresponder a la especificación de la ficha técnica, apariencia uniforme, subir y bajar el deslizador para comprobar su estado y el de los dientes.
+              td Debe corresponder a las especificaciones de la ficha técnica y presentar apariencia uniforme. Se debe subir y bajar el deslizador para comprobar su funcionamiento y el estado de los dientes.
             tr
               td Elásticos
               td Elasticidad
@@ -393,15 +393,15 @@
             tr
               td Elásticos
               td Color y tamaño
-              td Deben corresponder a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
+              td Deben corresponder a las especificaciones de la ficha técnica y presentar apariencia uniforme, orillos parejos y ausencia de dobleces.
             tr
-              td Sesgos, cintas, encajes
+              td Sesgos, cintas y encajes
               td Color, tamaño y diseño
-              td Deben corresponder a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
+              td Deben corresponder a las especificaciones de la ficha técnica y presentar apariencia uniforme, orillos parejos y ausencia de dobleces.
             tr
               td Gafetes, tensores
               td Color, tamaño y diseño
-              td Deben corresponder a la especificación de la ficha técnica, apariencia uniforme, orillos parejos, sin doblados.
+              td Deben corresponder a las especificaciones de la ficha técnica y presentar apariencia uniforme, bordes parejos y ausencia de deformaciones.
             tr
               td Telas
               td Resistencia
